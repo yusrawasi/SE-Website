@@ -1,0 +1,104 @@
+html {
+	/*Calculated this using an app. Reset it if u wish to. */
+	min-width: 839px;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	padding-top:170px;
+	font-family: 'Poppins'; /*Default on my system, change*/
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white; /*Change*/
+	text-decoration: none;
+}
+
+.mainHeader {
+	height: 120px;
+	background: rgb(128,0,0);/*Main color, change this if u will. */
+	width: 100%;
+	padding: 10px 20px; /*For adjusting the image*/
+	position: fixed;
+  	top: 0px;
+  	left: 0;
+  	z-index: 2;
+}
+
+.mainLogo {
+	height:100px;
+	width: 100px;
+}
+
+.mainHeading {
+	color: white;
+	font-size: 30px;
+	margin-top:10px;
+	text-transform: capitalize;
+	padding-left: 20px;
+	/*width:250px;Remove this for text in a straight line*/
+	line-height: 1.5;
+	display: inline-block;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* CODE FOR THE MAIN NAVBAR */
+
+.mainNav {
+	height: 30px;
+	background: black;
+	width:100%;
+	position: fixed;
+  	top: 120px;
+  	left: 0;
+  	bottom:0;
+  	z-index: 2;
+}
+
+.mainNav p {
+	float:left;
+	padding: 10px 12%;
+	/*padding-right:25%; Divide this by the number of headings. I had 4 so 25%  OR BETTER USED 12.5 FOR CENTER*/
+	text-align: center;
+	width: 50px;
+}
+
+
+/* CODE FOR THE SLIDERS*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
