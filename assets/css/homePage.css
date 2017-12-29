@@ -21,13 +21,13 @@ a:hover {
 
 .mainHeader {
 	height: 120px;
-	background: rgb(128,0,0);/*Main color, change this if u will. */
+	background: rgb(128,0,0);/*Main color, change this. */
 	width: 100%;
 	padding: 10px 20px; /*For adjusting the image*/
-	position: fixed;
+	position: fixed; /*Fixed position. Isko set karney key lie padding deni */
   	top: 0px;
   	left: 0;
-  	z-index: 2;
+  	z-index: 2; /*Order of stacking elements*/
 }
 
 .mainLogo {
@@ -93,7 +93,7 @@ a:hover {
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fade { /* @webkit - multi-browser support*/
   from {opacity: .4} 
   to {opacity: 1}
 }
