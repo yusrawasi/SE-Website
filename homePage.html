@@ -3,10 +3,14 @@
 <html>
 	<head>
 	<title>Software Engineering - SE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="shortcut icon" href="assets/logo.png" />
 
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 
 	<link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
 
@@ -28,50 +32,122 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<!-- THE MAIN HEADER -->
-					<div class="mainHeader">
+					<div class="mainHeader fixedPosition">
 						<img class="mainLogo" src="assets/logo.png">
 						<h1 class="mainHeading"><a href="">Department Of Software Engineering</a></h1>
 					</div>
 
+
+				</div>
+
 					<!-- THE MAIN NAVBAR -->
-					<div class="mainNav">
-						<p><a href="navbar.html">Home</a></p>
-						<p><a>Programmes</a></p>
-						<p><a>Faculty</a></p>
-						<p><a>Contact</a></p>
-					</div>
+				<nav class="navbar navbar-default navbar-inverse ">
+    				<div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					    </div>
 
-				</div>
+    				<div class="collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-1">
+      					<ul class="nav navbar-nav">
+					        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+					        <li><a href="#">Research</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes<span class="caret"></span></a>
+					          
+					          <ul class="dropdown-menu">
+					            <li><a href="#">BS-CSIT</a></li>
+					            <li><a href="#">BS-SE</a></li>
+					            <li><a href="#">BE-SE</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">MS-SE</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">MS-CSIT</a></li>
+					          </ul>
 
-			</div>
+					        </li>
+					    </ul>
+       			<!-- navbar-right, cut from below-->
+      					<ul class="nav navbar-nav">
+					        <li><a href="#">Faculty</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+					        
+					        <ul class="dropdown-menu">
+					            <li><a href="#">Research</a></li>
+					            <li><a href="#">Projects</a></li>
+					            <li><a href="#">Alumni</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">Contact</a></li>
+					        </ul>
 
-<!-- THIS IS THE MAIN CODE FOR THE SLIDESHOW -->
-			<div class="slideshow-container">
+					        </li>
+					     </ul>
+    				</div><!-- /.navbar-collapse -->
+  					
+  					</div><!-- /.container-fluid -->
+				</nav>
 
-				<div class="mySlides fade">
-				  <img src="assets/images/img1.jpg" style="width:100%; height:250px">
-				</div>
+				<!-- Refer to this for the CAROUSEL: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+				<!-- WILL FIX THE IMAGE SIZE SOON -->
+  				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="1"></li>
+				      <li data-target="#myCarousel" data-slide-to="2"></li>
+				    </ol>
 
-				<div class="mySlides fade">
-				  <img src="assets/images/img2.jpg" style="width:100%; height:250px">
-				<!-- <div class="text"></div -->				
-				</div>
+    				<!-- Wrapper for slides -->
+				    <div class="carousel-inner">
 
-				<div class="mySlides fade">
-				  <img src="assets/images/img3.jpg" style="width:100%; height:250px">
-				</div>
+				      <div class="item active">
+				        <img src="assets/images/img1.jpg" alt="Project No-1" class="imageResizer">
+				        <div class="carousel-caption">
+				          <h3>Project: Red One</h3>
+				          <p>Software Engineering</p>
+				        </div>
+				      </div>
+
+				      <div class="item">
+				        <img src="assets/images/img2.jpg" alt="Project No-2"  class="imageResizer">
+				        <div class="carousel-caption">
+				          <h3>Project: Red Two</h3>
+				          <p>Computer Science</p>
+				        </div>
+				      </div>
+				    
+				      <div class="item">
+				        <img src="assets/images/img3.jpg" alt="Project No-3"  class="imageResizer">
+				        <div class="carousel-caption">
+				          <h3>Project: Red Three</h3>
+				          <p>The BIG Apple</p>
+				        </div>
+				      </div>
+				  
+				    </div>
+
+				    <!-- Left and right controls -->
+				    <!-- Buttons are an issue. Slow internet causes them to shut off. -->
+				    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+ 				 </div>
 
 
-<!-- These are the PREVIOUS/NEXT buttons. They do function but abnormally when pressed frequently -->
-				<!-- <a class="prev"
-				 onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-				</div>
 
-				<br>
-				<!-- 3 grids -->
 
-				<!--  -->
+				<!-- THE MENU SLIDERS  -->
 				<div class="row slideshow-container ">
 <!-- welcome -->
 					<div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 ">
@@ -130,6 +206,7 @@
 			 
 			</div> -->
 		</div>
+	</div>
 	<!-- Bootstrap JS -->
 
 	

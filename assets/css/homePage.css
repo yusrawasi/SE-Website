@@ -1,12 +1,14 @@
 html {
 	/*Calculated this using an app. Reset it if u wish to. */
-	/*min-width: 839px;*/
+	min-width: 754px;
 }
 
 body {
 	margin: 0;
 	width: 100%;
-	padding-top:149px;
+	/*This padding is bc: Fixed navbars overlay main content
+	so body ko kuch pixels ki padding deni parti for proper alignment*/
+	padding-top:117px;
 	font-family: 'Poppins'; /*Default on my system, change*/
 }
 
@@ -19,13 +21,18 @@ a:hover {
 	text-decoration: none;
 }
 
+.fixedPosition {
+	position: fixed; /*Fixed position. Isko set karney key lie padding deni */
+	width: 100%;
+}
+
 .mainHeader {
 	height: 120px;
 	background: rgb(128,0,0);/*Main color, change this. */
 	width: 100%;
 	padding: 10px 20px; /*For adjusting the image*/
-	position: fixed; /*Fixed position. Isko set karney key lie padding deni */
   	top: 0px;
+  	position: fixed; /*Used fixedPosition instead */
   	left: 0;
   	z-index: 2; /*Order of stacking elements*/
 }
@@ -41,37 +48,44 @@ a:hover {
 	margin-top:10px;
 	text-transform: capitalize;
 	padding-left: 20px;
-	/*width:250px;Remove this for text in a straight line*/
 	line-height: 1.5;
 	display: inline-block;
 }
 
-
-/* ------------------------------------------------------------------------------------------------------- */
-/* CODE FOR THE MAIN NAVBAR */
-
-.mainNav {
-	height: 30px;
-	background: black;
-	width:100%;
-	position: fixed;
-  	top: 120px;
-  	left: 0;
-  	bottom:0;
-  	z-index: 2;
+/*If the screen hits 840px, do this.*/
+@media screen and (max-width: 840px){
+	.mainHeading {
+		font-size: 25px;
+	}
 }
 
-.mainNav p {
-	float:left;
-	padding: 10px 12%;
-	/*padding-right:25%; Divide this by the number of headings. I had 4 so 25%  OR BETTER USED 12.5 FOR CENTER*/
-	text-align: center;
-	width: 50px;
+@media screen and (max-width: 630px){
+	.mainHeading {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 534px){
+	.mainHeading {
+		font-size: 15px;
+	}
 }
 
 
-/* CODE FOR THE SLIDERS*/
-* {box-sizing:border-box}
+/*CODE FOR THE CAROUSEL - IMAGE SLIDER - SLIDESHOW*/
+.imgResizer {
+	width: 100%;
+	height: 360px;
+}
+
+.carousel {
+	margin: 20px auto;
+  width:500px;
+  height:50%;
+}
+
+
+/*CODE FOR THE MENU SLIDERS.*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -80,28 +94,6 @@ a:hover {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade { /* @webkit - multi-browser support*/
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 .grids{
 
 	border: 1px solid rgba(128,0,0,0.2);
@@ -136,13 +128,9 @@ box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
 	Ab jiskey bhi PC pey chalega. The browser will look for the files in the IMAGES folder. 
 	CSS key folder main nahi. */
 background-image: url("../images/chair.jpg");
-
-
-
+/*Added this. Window ko chota karo to it produces multiple pictures.*/
+background-size: cover;
 background-position: center;
-
-
-
 }
 
 
