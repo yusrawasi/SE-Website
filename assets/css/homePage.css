@@ -108,7 +108,7 @@ a:hover {
 	padding: 30px;
 	padding-top: 4px;
 	padding-bottom: 2px;
-    height: 150px;
+    height: 300px;
     border-radius: 5px;
     box-shadow: 4px 4px 3px rgba(44,71,0, 0.4);
 }
@@ -127,10 +127,11 @@ box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
 	margin: 1.2%;
 
 }
-
 .chairman{
 	
-background: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFfgJc3VvKH-N0cLTOy-TWBt7lT_78CoSmEwgz0qcbGFkPsNW");
+background-image: url("C:/Users/Dell/SE-Website/assets/images/chair.jpg");
+
 background-position: center;
 
 
