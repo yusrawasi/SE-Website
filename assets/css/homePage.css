@@ -130,8 +130,12 @@ box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
 .chairman{
 	/* some issues to be resolved */
 	/*use your own path*/
-	
-background-image: url("C:/Users/Dell/SE-Website/assets/images/chair.jpg");
+	/*Fixed- Commit8 - Images use the path provided by the CSS files ie their absolute paths.
+	So unkey lie we have to provide an absolute path OR using ../ create a relative path.
+
+	Ab jiskey bhi PC pey chalega. The browser will look for the files in the IMAGES folder. 
+	CSS key folder main nahi. */
+background-image: url("../images/chair.jpg");
 
 
 
