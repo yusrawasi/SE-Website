@@ -128,18 +128,19 @@ box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
 
 }
 .chairman{
+	/* some issues to be resolved */
+	/*use your own path*/
 	
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFfgJc3VvKH-N0cLTOy-TWBt7lT_78CoSmEwgz0qcbGFkPsNW");
 background-image: url("C:/Users/Dell/SE-Website/assets/images/chair.jpg");
+
+
 
 background-position: center;
 
 
 
 }
-/*
-.chairman:hover{
-	background: url("https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg");*/
+
 
 .parallax {
     /* The image used */
