@@ -147,11 +147,8 @@ background-position: center;
     background-size: cover;
 }
 
-#owl-demo .item{
-  margin: 3px;
-}
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+.news {
+	margin: 50px 0;
+	height: 150px;
+	background-color: rgba(255,255,255, 0.5);
 }
