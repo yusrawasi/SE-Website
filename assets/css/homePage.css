@@ -1,12 +1,12 @@
 html {
 	/*Calculated this using an app. Reset it if u wish to. */
-	min-width: 839px;
+	/*min-width: 839px;*/
 }
 
 body {
 	margin: 0;
 	width: 100%;
-	padding-top:170px;
+	padding-top:149px;
 	font-family: 'Poppins'; /*Default on my system, change*/
 }
 
@@ -101,4 +101,63 @@ a:hover {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+.grids{
+
+	border: 1px solid rgba(128,0,0,0.2);
+	padding: 30px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px rgba(44,71,0, 0.4);
+}
+
+.content-heading
+{
+background: #990000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #990000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #990000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: 5px;
+box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
+
+}
+.col-md-5, .col-md-3, .col-lg-5, .col-md-3 {
+	margin: 1.2%;
+
+}
+
+.chairman{
+	
+background: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+background-position: center;
+
+
+
+}
+/*
+.chairman:hover{
+	background: url("https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg");*/
+
+.parallax {
+    /* The image used */
+    background-image: url("http://static.panoramio.com/photos/large/95625328.jpg");
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
