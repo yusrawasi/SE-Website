@@ -181,8 +181,8 @@ box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
 }
 
 footer{
-	color: white;
-	background-color: #060919 ;
+	color: grey;
+	background-color: black ;
 	bottom: 0;
 	padding-top: 50px;
 	padding-bottom: 0px;
@@ -203,4 +203,8 @@ footer{
 .copyrights{
 	text-align: center ;
 	padding-top: 0px;
+}
+
+.footer-a{
+	color: grey;
 }
