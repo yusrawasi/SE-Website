@@ -119,9 +119,9 @@ a:hover {
 
 }
 #videotext{
-	float: right;
-	
-	padding-top: 25px;
+	float: left; 
+	width: 50%; 
+	margin: auto 20px;
 
 }
 .content-heading
