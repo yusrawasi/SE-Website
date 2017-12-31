@@ -34,7 +34,7 @@ a:hover {
   	top: 0px;
   	position: fixed; /*Used fixedPosition instead */
   	left: 0;
-  	z-index: 2; /*Order of stacking elements*/
+  	z-index: 99999; /*Order of stacking elements*/
 }
 
 .mainLogo {
@@ -72,10 +72,30 @@ a:hover {
 }
 
 
+/*CODE FOR THE NAVBAR*/
+
+.navbar-nav>li>a {
+	padding: 20px 30px; /*Default values: 10px 0; */
+}
+
+@media (min-width: 768px){
+  .navbar-nav{
+     margin: 0 auto;
+     display: table;
+     table-layout: fixed;
+     float: none;
+    }
+}  
+
+
 /*CODE FOR THE CAROUSEL - IMAGE SLIDER - SLIDESHOW*/
 .imgResizer {
-	width: 100%;
-	height: 360px;
+	/*Fixed with specific img class*/
+}
+
+.item img {
+    height: 400px !important;
+    width: 850px !important;
 }
 
 .carousel {
