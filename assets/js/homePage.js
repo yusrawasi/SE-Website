@@ -30,3 +30,16 @@ $(document).ready(function() {
 
 //      });
 
+// var wrap = $("#sidebar-wrapper");
+
+// wrap.on("scroll", function(e) {
+    
+//   if (this.scrollTop > 50) {
+//     wrap.addClass("fixedPosition");
+//     $(".sidebar-nav").addClass("absPosition");
+//   } else {
+//     wrap.removeClass("fixedPosition");
+//     $(".sidebar-nav").removeClass("absPosition");
+//   }
+  
+// });
