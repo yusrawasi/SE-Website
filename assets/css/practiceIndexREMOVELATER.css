@@ -6,6 +6,8 @@ html {
 body {
 	margin: 0;
 	width: 100%;
+	/*This padding is bc: Fixed navbars overlay main content
+	so body ko kuch pixels ki padding deni parti for proper alignment*/
 	padding-top:70px;
 	font-family: 'Poppins'; /*Default on my system, change*/
 }
@@ -129,7 +131,7 @@ a:hover {
 }
 #video{
 	height: 270px;
-	padding-left: : 5px;
+	padding-left:  5px;
 	padding-right: 5px;
 	padding-top: 2px;
 	padding-bottom: 1px; 
@@ -245,7 +247,7 @@ footer{
     /*position: fixed;*/
     /*left: 250px;*/
     width: 0;
-    top: 81px; /*121*/
+    top: 121px;
     /*height: 100%;*/
     /*margin-left: -250px;*/
     margin-top: 0;
@@ -358,6 +360,7 @@ footer{
   #section3 {color: #fff; background-color: #ff9800; height: 500px; padding-top: 100px;}
   #section41 {color: #fff; background-color: #00bcd4; height: 500px; padding-top: 100px;}
   #section42 {color: #fff; background-color: #009688; height: 500px; padding-top: 100px;}
+
 
 
 

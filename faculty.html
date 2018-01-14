@@ -1,3 +1,4 @@
+<!-- FACULTY PAGE -->
 <!DOCTYPE html>
 
 <html>
@@ -9,7 +10,7 @@
 
   <link rel="shortcut icon" href="assets/logo.png" />
 
-
+  <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
@@ -20,8 +21,6 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
-  <!-- I've added a CDN.  -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
   <link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
   <link rel="stylesheet" type="text/css" href="assets/css/faculty.css">
 
@@ -62,191 +61,298 @@
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <!-- THE MAIN HEADER -->
-        <div class="mainHeader fixedPosition">
-          <img class="mainLogo" src="assets/logo.png">
-          <h1 class="mainHeading">
-            <a href="">Department Of Software Engineering</a>
-          </h1>
-        </div>
-
-      </div>
-
-      <!-- THE MAIN NAVBAR -->
-      <nav class="navbar navbar-default navbar-inverse ">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-              aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-
-          <div class="collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">Research</a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes
-                  <span class="caret"></span>
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="#">BS-CSIT</a>
-                  </li>
-                  <li>
-                    <a href="#">BS-SE</a>
-                  </li>
-                  <li>
-                    <a href="#">BE-SE</a>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li>
-                    <a href="#">MS-SE</a>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li>
-                    <a href="#">MS-CSIT</a>
-                  </li>
-                </ul>
-
-              </li>
-
-              <!-- Remove this from its individual 'ul with nav navbar-nav'.Creates a diff row in the table -->
-              <li class="active">
-                <a href="faculty.html">Faculty</a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More
-                  <span class="caret"></span>
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="#">Research</a>
-                  </li>
-                  <li>
-                    <a href="projects.html">Projects</a>
-                  </li>
-                  <li>
-                    <a href="#">Alumni</a>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-
-
+  <!-- START OF NAV -->
+  <div class="mainNavbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
-            <!-- Sidebar -->
-            <div id="sidebar-wrapper" data-spy="affix" data-offset-top="80">
-              <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                  <a href="#">
-                    Faculty of SE
-                  </a>
-
-                </li>
-                <li style="padding-top: 10px;">
-                  <a href="#chairman" class="scrol">Chairman</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://disputebills.com">
+            <img src="assets/SELogo2.png" alt="Dispute Bills">
+          </a>
+        </div>
+        <div id="navbar3" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="courses.html">Programmes</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="faculty.html">Faculty</a>
                 </li>
                 <li>
-                  <a href="#professors" class="scrol">Professors</a>
+                  <a href="research.html">Research</a>
                 </li>
                 <li>
-                  <a href="#associate-professors" class="scrol">Associate Professors</a>
+                  <a href="alumni.html">Alumni</a>
                 </li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
                 <li>
-                  <a href="#assistant-professors" class="scrol">Assistant Professors</a>
-                </li>
-                <li>
-                  <a href="#lecturers" class="scrol">Lecturers</a>
-                </li>
-                <li>
-                  <a href="#it-manager-je" class="scrol">IT Manager JE</a>
-                </li>
-                <li>
-                  <a href="#it-manager-ss" class="scrol">IT Manager SS</a>
-                </li>
-                <li>
-                  <a href="#it-manager-js" class="scrol">IT Manager JS</a>
-                </li>
-                <li>
-                  <a href="#chairman" class="scrol">Back To Top</a>
+                  <a href="contact.html">Contact Us</a>
                 </li>
               </ul>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
+
+
+
+
+  <!-- END OF NAV -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" data-spy="affix" data-offset-top="65">
+          <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+              <a href="#">
+                Faculty of SE
+              </a>
+
+            </li>
+            <li style="padding-top: 10px;">
+              <a href="#chairman" class="scrol">Chairman</a>
+            </li>
+            <li>
+              <a href="#professors" class="scrol">Professors</a>
+            </li>
+            <li>
+              <a href="#associate-professors" class="scrol">Associate Professors</a>
+            </li>
+            <li>
+              <a href="#assistant-professors" class="scrol">Assistant Professors</a>
+            </li>
+            <li>
+              <a href="#lecturers" class="scrol">Lecturers</a>
+            </li>
+            <li>
+              <a href="#it-manager-je" class="scrol">IT Manager JE</a>
+            </li>
+            <li>
+              <a href="#it-manager-ss" class="scrol">IT Manager SS</a>
+            </li>
+            <li>
+              <a href="#it-manager-js" class="scrol">IT Manager JS</a>
+            </li>
+            <li>
+              <a href="#chairman" class="scrol">Back To Top</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+      </div>
+
+      <div class="col-sm-9" style="padding-right: 0;">
+
+
+        <!--TABLE-->
+        <table class="table  table-hover">
+          <thead id="TAB">
+            <tr>
+              <td>
+                <h4>Name & Qualification</h4>
+              </td>
+              <td>
+                <h4>Designation</h4>
+              </td>
+              <td>
+                <h4>Telephone +92-21-99261261-68 Extension</h4>
+              </td>
+              <td> </td>
+
+            </tr>
+          </thead>
+          <!-- chairman & cochairman-->
+          <div id="chairman">
+            <tr>
+              <td>
+                <div>
+                  <b>Prof. Dr. Najmi Ghani Haider.Ph.D. (Brunel, UK).</b>
+                </div>
+                <div> (Artificial Neural Networks). B.Sc (Hons) Electronic Engineering (Hull, UK).</div>
+                <div>
+                  <b>Specialization:</b> Machine Learning, Robust Speech Recognition, Image Processing.</div>
+                <div class="email-id">
+                  <a href="mailto:chaircsit@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                    <b>chaircsit@neduet.edu.pk</b>
+                  </a>
+                </div>
+
+              </td>
+              <td>
+                <b>Chairman</b>
+              </td>
+              <td>
+                <b>2599</b>
+              </td>
+              <td class="cv">
+                <b>CV</b>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <div>
+                  <b>Prof. Dr. Sohail Abdul Sattar.</b>
+                </div>
+                <div>Ph.D. (Computer Science, NED). (Computer Vision, OCR). MCS (Computer Science, University of Karachi). M.Sc.
+                  (Computer Science, NED). B.E. (Mech., NED).
+                </div>
+                <div>
+                  <div>
+                    <b>Specialization:</b> Computer Vision, Image Processing and Computational Linguistics.</div>
+
+                  <div class="email-id">
+                    <a href="mailto:sattar@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                      <b>sattar@neduet.edu.pk</b>
+                    </a>
+                  </div>
+              </td>
+              <td>
+                <b>Co-Chairman</b>
+              </td>
+              <td>
+                <b>2566</b>
+              </td>
+              <td class="cv">
+                <b>CV</b>
+              </td>
+
+            </tr>
             </div>
-            <!-- /#sidebar-wrapper -->
-          </div>
+            <!-- End of chairman and Co-chairman -->
+            <!-- professors -->
+            <div>
 
-          <div class="col-sm-9" style="padding-right: 0;">
-
-
-            <!--TABLE-->
-            <table class="table  table-hover">
-              <thead id="TAB">
+              <thead>
                 <tr>
-                  <td>
-                    <h4>Name & Qualification</h4>
+                  <td colspan="4">
+                    <div align="center" id="professors" class="table-heads">
+                      <h5 class="categories">Professors</h5>
+                    </div>
                   </td>
-                  <td>
-                    <h4>Designation</h4>
-                  </td>
-                  <td>
-                    <h4>Telephone +92-21-99261261-68 Extension</h4>
-                  </td>
-                  <td> </td>
-
                 </tr>
               </thead>
-              <!-- chairman & cochairman-->
-              <div id="chairman">
+
+              <tr>
+                <td>
+                  <div>
+                    <b>Prof. Dr. Najmi Ghani Haider.Ph.D. (Brunel, UK).</b>
+                  </div>
+                  <div> (Artificial Neural Networks). B.Sc (Hons) Electronic Engineering (Hull, UK).</div>
+                  <div>
+                    <b>Specialization:</b> Machine Learning, Robust Speech Recognition, Image Processing.</div>
+                  <div class="email-id">
+                    <a href="mailto:najmi@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                      <b>najmi@neduet.edu.pk</b>
+                    </a>
+                  </div>
+
+                </td>
+                <td>
+                  <b>Professor</b>
+                </td>
+                <td>
+                  <b>2599</b>
+                </td>
+                <td class="cv">
+                  <b>CV</b>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <td>
+                  <div>
+                    <b>Prof. Dr. Sohail Abdul Sattar.</b>
+                  </div>
+                  <div>Ph.D. (Computer Science, NED). (Computer Vision, OCR). MCS (Computer Science, University of Karachi). M.Sc.
+                    (Computer Science, NED). B.E. (Mech., NED).
+                  </div>
+                  <div>
+                    <div>
+                      <b>Specialization:</b> Computer Vision, Image Processing and Computational Linguistics.</div>
+                    <div class="email-id">
+                      <a href="mailto:sattar@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                        <b>sattar@neduet.edu.pk</b>
+                      </a>
+                    </div>
+                </td>
+                <td>
+                  <b>Professor</b>
+                </td>
+                <td>
+                  <b>2566</b>
+                </td>
+                <td class="cv">
+                  <b>CV</b>
+                </td>
+
+              </tr>
+
+              </div>
+
+
+              <!-- END of professors -->
+              <!-- Associate Professors -->
+              <div>
+
+                <thead>
+                  <tr>
+                    <td colspan="4">
+                      <div align="center" id="associate-professors" class="table-heads">
+                        <h5 class="categories">Associate Professors</h5>
+                      </div>
+                    </td>
+                  </tr>
+                </thead>
+
                 <tr>
                   <td>
                     <div>
-                      <b>Prof. Dr. Najmi Ghani Haider.Ph.D. (Brunel, UK).</b>
+                      <b>Dr. Sh. Muhammad Wahabuddin Usmani.</b>
                     </div>
-                    <div> (Artificial Neural Networks). B.Sc (Hons) Electronic Engineering (Hull, UK).</div>
+                    <div>Ph.D. (Computer Science, NED). (Software Development Methodologies). M.Sc (Computer Science, NED). Diploma
+                      (Computer Science, SBTE). B.E. (Electronics, DCET).</div>
                     <div>
-                      <b>Specialization:</b> Machine Learning, Robust Speech Recognition, Image Processing.</div>
+                      <b>Specialization:</b> Software Development Methodologies.</div>
+
                     <div class="email-id">
-                      <a href="mailto:chaircsit@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                        <b>chaircsit@neduet.edu.pk</b>
+                      <a href="mailto:wahab@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                        <b>wahab@neduet.edu.pk</b>
                       </a>
                     </div>
-
                   </td>
                   <td>
-                    <b>Chairman</b>
+                    <b>Associate Professor</b>
                   </td>
                   <td>
-                    <b>2599</b>
+                    <b>2387</b>
                   </td>
                   <td class="cv">
                     <b>CV</b>
@@ -254,841 +360,695 @@
                 </tr>
 
 
+
                 <tr>
                   <td>
                     <div>
-                      <b>Prof. Dr. Sohail Abdul Sattar.</b>
+                      <b>Dr.Najeed Ahmed Khan.</b>
                     </div>
-                    <div>Ph.D. (Computer Science, NED). (Computer Vision, OCR). MCS (Computer Science, University of Karachi).
-                      M.Sc. (Computer Science, NED). B.E. (Mech., NED).
+                    <div>Ph.D. (Computing).University of Leeds, UK. M.Sc. (Computer Science, NED). M.Sc. (Applied Maths, University
+                      of Karachi - Gold Medal).
                     </div>
                     <div>
                       <div>
-                        <b>Specialization:</b> Computer Vision, Image Processing and Computational Linguistics.</div>
-
+                        <b>Specialization:</b> Computer Vision.</div>
                       <div class="email-id">
-                        <a href="mailto:sattar@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                          <b>sattar@neduet.edu.pk</b>
+                        <a href="mailto:najeed@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                          <b>najeed@neduet.edu.pk</b>
                         </a>
                       </div>
                   </td>
                   <td>
-                    <b>Co-Chairman</b>
+                    <div>
+                      <b>Associate Professor</b>
+                    </div>
+                    <div>
+                      <b>Executive Officer & Caretaker MoST Chair Professor Centre for Software Research & Development</b>
+                    </div>
+                    <div>
+                      <b>Editor: NED University Journal of Research - Applied Sciences</b>
+                    </div>
+
+
                   </td>
                   <td>
-                    <b>2566</b>
+                    <b>2502,2503</b>
                   </td>
                   <td class="cv">
                     <b>CV</b>
                   </td>
 
                 </tr>
+                <tr>
+                  <td>
+                    <div>
+                      <b>Dr. Muhammad Mubashir Khan.</b>
+                    </div>
+                    <div>Ph.D. (Computer Science), University of Leeds, UK. M.Sc. (Telecom, University of Sindh). MCIT (By Research,
+                      NED).
+                    </div>
+                    <div>
+                      <div>
+                        <b>Specialization:</b>Information Security.</div>
+                      <div class="email-id">
+                        <a href="mailto:mmkhan@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                          <b>mmkhan@neduet.edu.pk</b>
+                        </a>
+                      </div>
+                  </td>
+                  <td>
+                    <b>Associate Professor</b>
+                  </td>
+                  <td>
+                    <b>2563</b>
+                  </td>
+                  <td class="cv">
+                    <b>CV</b>
+                  </td>
+
+                </tr>
+
                 </div>
-                <!-- End of chairman and Co-chairman -->
-                <!-- professors -->
+
+                <!-- End of Associate Professors -->
+                <!-- Assistant Professor -->
+
                 <div>
 
                   <thead>
                     <tr>
                       <td colspan="4">
-                        <div align="center" id="professors" class="table-heads">
-                          <h5 class="categories">Professors</h5>
+                        <div align="center" id="assistant-professors" class="table-heads">
+                          <h5 class="categories">Assistant Professors</h5>
                         </div>
                       </td>
                     </tr>
                   </thead>
-
+                  <!-- 1 -->
                   <tr>
                     <td>
                       <div>
-                        <b>Prof. Dr. Najmi Ghani Haider.Ph.D. (Brunel, UK).</b>
+                        <b>Ms. Saba Izhar Haque.</b>
                       </div>
-                      <div> (Artificial Neural Networks). B.Sc (Hons) Electronic Engineering (Hull, UK).</div>
-                      <div>
-                        <b>Specialization:</b> Machine Learning, Robust Speech Recognition, Image Processing.</div>
-                      <div class="email-id">
-                        <a href="mailto:najmi@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                          <b>najmi@neduet.edu.pk</b>
-                        </a>
-                      </div>
-
-                    </td>
-                    <td>
-                      <b>Professor</b>
-                    </td>
-                    <td>
-                      <b>2599</b>
-                    </td>
-                    <td class="cv">
-                      <b>CV</b>
-                    </td>
-                  </tr>
-
-
-
-                  <tr>
-                    <td>
-                      <div>
-                        <b>Prof. Dr. Sohail Abdul Sattar.</b>
-                      </div>
-                      <div>Ph.D. (Computer Science, NED). (Computer Vision, OCR). MCS (Computer Science, University of Karachi).
-                        M.Sc. (Computer Science, NED). B.E. (Mech., NED).
+                      <div>M.Phil (Computation) UMIST, UK. B.Sc. (Hons) UMIST, UK.
                       </div>
                       <div>
                         <div>
-                          <b>Specialization:</b> Computer Vision, Image Processing and Computational Linguistics.</div>
+                          <b>Specialization:</b>Data Mining.</div>
                         <div class="email-id">
-                          <a href="mailto:sattar@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                            <b>sattar@neduet.edu.pk</b>
+                          <a href="mailto:sabakhan@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>sabakhan@neduet.edu.pk</b>
                           </a>
                         </div>
                     </td>
                     <td>
-                      <b>Professor</b>
+                      <b>Assistant Professor</b>
                     </td>
                     <td>
-                      <b>2566</b>
+                      <b>2399</b>
                     </td>
                     <td class="cv">
                       <b>CV</b>
                     </td>
 
                   </tr>
+                  <!-- 2 -->
+                  <tr>
+                    <td>
+                      <div>
+                        <b>Dr. Saman Hina.</b>
+                      </div>
+                      <div>Ph.D (University of Leeds), MCIT (NED).BS (Computer Science) SSUET.
+                      </div>
+                      <div>
+                        <div>
+                          <b>Specialization:</b>Semantics.</div>
+                        <div class="email-id">
+                          <a href="mailto:samhaque@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>samhaque@neduet.edu.pk</b>
+                          </a>
+                        </div>
+                    </td>
+                    <td>
+                      <b>Assistant Professor</b>
+                    </td>
+                    <td>
+                      <b>2498</b>
+                    </td>
+                    <td class="cv">
+                      <b>CV</b>
+                    </td>
 
+                  </tr>
+                  <!-- 3 -->
+                  <tr>
+                    <td>
+                      <div>
+                        <b>Dr. Shariq Mahmood Khan.</b>
+                      </div>
+                      <div>Ph.D (Computer Engineering), Brunel University London, UK, MCIT (NED). BCIT (NED).
+                      </div>
+                      <div>
+                        <div>
+                          <b>Specialization:</b> Wireless Ad-Hoc Routing Protocols and Information Security.</div>
+                        <div class="email-id">
+                          <a href="mailto:shariq@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>shariq@neduet.edu.pk</b>
+                          </a>
+                        </div>
+                    </td>
+                    <td>
+                      <b>Assistant Professor</b>
+                    </td>
+                    <td>
+                      <b>2385</b>
+                    </td>
+                    <td class="cv">
+                      <b>CV</b>
+                    </td>
+
+                  </tr>
+                  <!-- 4 -->
+                  <tr>
+                    <td>
+                      <div>
+                        <b>Engr. Dr. Shehnila Zardari.</b>
+                      </div>
+                      <div>PhD (Computer Science), The University of Birmingham, United Kingdom, ME (Communication Systems & Networks)
+                        MUET, Jamshoro. B.E. (Software) MUET Jamshoro.
+                      </div>
+                      <div>
+                        <div>
+                          <b>Specialization:</b>Cloud Adoption: A Goal-Oriented Requirements Engineering Approach Research Interests:
+                          Requirements Engineering, Risk Management, Cloud Architecture, Software Engineering</div>
+                        <div class="email-id">
+                          <a href="mailto:shenilaz@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>shenilaz@neduet.edu.pk</b>
+                          </a>
+                        </div>
+                    </td>
+                    <td>
+                      <b>Assistant Professor</b>
+                    </td>
+                    <td>
+                      <b>2564</b>
+                    </td>
+                    <td class="cv">
+                      <b>CV</b>
+                    </td>
+
+                  </tr>
+                  <!-- 5 -->
+                  <tr>
+                    <td>
+                      <div>
+                        <b>Engr. Dr. Raheela Asif.</b>
+                      </div>
+                      <div>PhD (Computer Science, NED), MCIT (NED). MS (Software Engineering) SSUET. B.E. (CIS) NED.
+                      </div>
+                      <div>
+                        <div>
+                          <b>Specialization:</b>Educational Data Mining.</div>
+                        <div class="email-id">
+                          <a href="mailto:rahmed@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>rahmed@neduet.edu.pk</b>
+                          </a>
+                        </div>
+                    </td>
+                    <td>
+                      <b>Assistant Professor</b>
+                    </td>
+                    <td>
+                      <b>2399</b>
+                    </td>
+                    <td class="cv">
+                      <b>CV</b>
+                    </td>
+
+                  </tr>
                   </div>
+                  <!-- End of assistant professors -->
 
-
-                  <!-- END of professors -->
-                  <!-- Associate Professors -->
+                  <!-- lecturers -->
                   <div>
 
                     <thead>
                       <tr>
                         <td colspan="4">
-                          <div align="center" id="associate-professors" class="table-heads">
-                            <h5 class="categories">Associate Professors</h5>
+                          <div align="center" id="lecturers" class="table-heads">
+                            <h5 class="categories">Lecturers</h5>
                           </div>
                         </td>
                       </tr>
                     </thead>
-
+                    <!-- 1 -->
                     <tr>
                       <td>
                         <div>
-                          <b>Dr. Sh. Muhammad Wahabuddin Usmani.</b>
+                          <b>Mr. Waseemullah.</b>
                         </div>
-                        <div>Ph.D. (Computer Science, NED). (Software Development Methodologies). M.Sc (Computer Science, NED).
-                          Diploma (Computer Science, SBTE). B.E. (Electronics, DCET).</div>
+                        <div>MCIT (NED). BCIT (NED).
+                        </div>
                         <div>
-                          <b>Specialization:</b> Software Development Methodologies.</div>
+                          <div>
+                            <b>Specialization: </b>Databases and Software Engineering.</div>
+                          <div class="email-id">
+                            <a href="mailto:waseemu@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>waseemu@neduet.edu.pk</b>
+                            </a>
+                          </div>
+                      </td>
+                      <td>
+                        <b>Lecturer</b>
+                      </td>
+                      <td>
+                        <b>2633</b>
+                      </td>
+                      <td class="cv">
+                        <b>CV</b>
+                      </td>
 
+                    </tr>
+                    <!-- 2 -->
+                    <tr>
+                      <td>
+                        <div>
+                          <b>Me. Umer Farooq</b>
+                        </div>
+                        <div>Ph.D (In Progress from NED), MCIT (NED). BCIT (NED).
+                        </div>
+                        <div>
+                          <div>
+                            <b>Specialization Field of Ph.D: </b>Computer Vision.</div>
+                          <div class="email-id">
+                            <a href="mailto:umer@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>umer@neduet.edu.pk</b>
+                            </a>
+                          </div>
+                      </td>
+                      <td>
+                        <b>Lecturer</b>
+                      </td>
+                      <td>
+                        <b>2633</b>
+                      </td>
+                      <td class="cv">
+                        <b>CV</b>
+                      </td>
+
+                    </tr>
+                    <!-- 3 -->
+                    <tr>
+                      <td>
+                        <div>
+                          <b>
+                            Mr. Kashif Mehboob Khan.</b>
+                        </div>
+                        <div>MCIT (NED). MCTS. BS (Computer Engineering) SSUET.
+                        </div>
+                        <div>
+                          <div>
+                            <b>Specialization Field of Ph.D: </b> Online Information Security in Financial Transactions</div>
+                          <div class="email-id">
+                            <a href="mailto:kashifmehboobkhan@yahoo.com" class="a-faculty" style="color: #373838">
+                              <b>kashifmehboobkhan@yahoo.com</b>
+                            </a>
+                          </div>
+                      </td>
+                      <td>
+                        <b>Lecturer</b>
+                      </td>
+                      <td>
+                        <b>2399</b>
+                      </td>
+                      <td class="cv">
+                        <b>CV</b>
+                      </td>
+
+                    </tr>
+                    <!-- 4 -->
+                    <tr>
+                      <td>
+                        <div>
+                          <b>Ms. Uzma Zehra.</b>
+                        </div>
+                        <div>MS (Computer Science) IBA Karachi. B.E. (CIS) NED.
+                        </div>
+                        <div>
+                          <div>
+                            <b>Specialization:</b> Artificial Intelligance, Software Engineering, Web Development .</div>
+                          <div class="email-id">
+                            <a href="mailto:uzmazehra@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>uzmazehra@neduet.edu.pk</b>
+                            </a>
+                          </div>
+                      </td>
+                      <td>
+                        <b>Lecturer</b>
+                      </td>
+                      <td>
+                        <b>2399</b>
+                      </td>
+                      <td class="cv">
+                        <b>CV</b>
+                      </td>
+
+                    </tr>
+                    <!-- 5 -->
+                    <tr>
+                      <td>
+                        <div>
+                          <b>Ms. Sidra.</b>
+                        </div>
+                        <div>ME (Communication Systems and Network) MUET, Jamshoro. BE (Software Engineering) MUET, Jamshoro.
+                        </div>
+                        <div>
+                          <div>
+                            <b>Specialization:</b>Image Processing, Software Engineering.</div>
+                          <div class="email-id">
+                            <a href="mailto:sid_sapphire@hotmail.com" class="a-faculty" style="color: #373838">
+                              <b>sid_sapphire@hotmail.com</b>
+                            </a>
+                          </div>
+                      </td>
+                      <td>
+                        <b>Lecturer</b>
+                      </td>
+                      <td>
+                        <b>2399</b>
+                      </td>
+                      <td class="cv">
+                        <b>CV</b>
+                      </td>
+
+                    </tr>
+                    <!-- 6 -->
+                    <tr>
+                      <td>
+                        <div>
+                          <b>Ms. Maria Andaleeb Siddiqui.</b>
+                        </div>
+                        <div>ME (Computer Networks and Performance Evaluation) NED. B.E. (Telecommunication) NED.
+                        </div>
+
+                        <div>
+                          <b>Specialization Field of Ph.D:</b>Machine Learning.</div>
                         <div class="email-id">
-                          <a href="mailto:wahab@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                            <b>wahab@neduet.edu.pk</b>
+                          <a href="mailto:rahmed@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                            <b>rahmed@neduet.edu.pk</b>
                           </a>
                         </div>
                       </td>
                       <td>
-                        <b>Associate Professor</b>
+                        <b>Lecturer</b>
                       </td>
                       <td>
-                        <b>2387</b>
-                      </td>
-                      <td class="cv">
-                        <b>CV</b>
-                      </td>
-                    </tr>
-
-
-
-                    <tr>
-                      <td>
-                        <div>
-                          <b>Dr.Najeed Ahmed Khan.</b>
-                        </div>
-                        <div>Ph.D. (Computing).University of Leeds, UK. M.Sc. (Computer Science, NED). M.Sc. (Applied Maths, University
-                          of Karachi - Gold Medal).
-                        </div>
-                        <div>
-                          <div>
-                            <b>Specialization:</b> Computer Vision.</div>
-                          <div class="email-id">
-                            <a href="mailto:najeed@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                              <b>najeed@neduet.edu.pk</b>
-                            </a>
-                          </div>
-                      </td>
-                      <td>
-                        <div>
-                          <b>Associate Professor</b>
-                        </div>
-                        <div>
-                          <b>Executive Officer & Caretaker MoST Chair Professor Centre for Software Research & Development</b>
-                        </div>
-                        <div>
-                          <b>Editor: NED University Journal of Research - Applied Sciences</b>
-                        </div>
-
-
-                      </td>
-                      <td>
-                        <b>2502,2503</b>
+                        <b>2399</b>
                       </td>
                       <td class="cv">
                         <b>CV</b>
                       </td>
 
                     </tr>
-                    <tr>
-                      <td>
-                        <div>
-                          <b>Dr. Muhammad Mubashir Khan.</b>
-                        </div>
-                        <div>Ph.D. (Computer Science), University of Leeds, UK. M.Sc. (Telecom, University of Sindh). MCIT (By
-                          Research, NED).
-                        </div>
-                        <div>
-                          <div>
-                            <b>Specialization:</b>Information Security.</div>
-                          <div class="email-id">
-                            <a href="mailto:mmkhan@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                              <b>mmkhan@neduet.edu.pk</b>
-                            </a>
-                          </div>
-                      </td>
-                      <td>
-                        <b>Associate Professor</b>
-                      </td>
-                      <td>
-                        <b>2563</b>
-                      </td>
-                      <td class="cv">
-                        <b>CV</b>
-                      </td>
-
-                    </tr>
-
                     </div>
 
-                    <!-- End of Associate Professors -->
-                    <!-- Assistant Professor -->
+                    <!-- End of lecturers -->
 
+                    <!-- IT MANAGER JE -->
                     <div>
 
                       <thead>
                         <tr>
                           <td colspan="4">
-                            <div align="center" id="assistant-professors" class="table-heads">
-                              <h5 class="categories">Assistant Professors</h5>
+                            <div align="center" id="it-manager-je" class="table-heads">
+                              <h5 class="categories">IT Manager JE</h5>
                             </div>
                           </td>
                         </tr>
                       </thead>
                       <!-- 1 -->
                       <tr>
-                        <td>
+                        <td colspan="2">
                           <div>
-                            <b>Ms. Saba Izhar Haque.</b>
+                            <b>Mr. Muhammad Ejaz Yunus.</b>
                           </div>
-                          <div>M.Phil (Computation) UMIST, UK. B.Sc. (Hons) UMIST, UK.
+                          <div>M.Sc (Computer Science) NED. B.E. (Civil) NED.
                           </div>
-                          <div>
-                            <div>
-                              <b>Specialization:</b>Data Mining.</div>
-                            <div class="email-id">
-                              <a href="mailto:sabakhan@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>sabakhan@neduet.edu.pk</b>
-                              </a>
+
+
+                          <td colspan="2">
+                            <b>2278</b>
+                          </td>
+
+
+
+                      </tr>
+                    </div>
+                    <!-- END of IT MANAGER JE -->
+                    <!-- IT MANAGER SS -->
+                    <div>
+
+                      <thead>
+                        <tr>
+                          <td colspan="4">
+                            <div align="center" id="it-manager-ss" class="table-heads">
+                              <h5 class="categories">IT Managers SS</h5>
                             </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <!-- 1 -->
+                      <tr>
+                        <td colspan="4">
+                          <div>
+                            <b>Mr. Amjad Ali</b>
+                          </div>
+                          <div>MCIT NED. B.E. (Mech.) NED.
+                          </div>
+
+
+                          <div class="email-id">
+                            <a href="mailto:amjad@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>amjad@neduet.edu.pk</b>
+                            </a>
+                          </div>
                         </td>
-                        <td>
-                          <b>Assistant Professor</b>
-                        </td>
-                        <td>
-                          <b>2399</b>
-                        </td>
-                        <td class="cv">
-                          <b>CV</b>
-                        </td>
+
 
                       </tr>
                       <!-- 2 -->
                       <tr>
-                        <td>
+                        <td colspan="4">
                           <div>
-                            <b>Dr. Saman Hina.</b>
+                            <b>Ms. Noor Afshan Vasty.</b>
                           </div>
-                          <div>Ph.D (University of Leeds), MCIT (NED).BS (Computer Science) SSUET.
+                          <div>BS (Computer Information Systems) (New York).
                           </div>
-                          <div>
-                            <div>
-                              <b>Specialization:</b>Semantics.</div>
-                            <div class="email-id">
-                              <a href="mailto:samhaque@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>samhaque@neduet.edu.pk</b>
-                              </a>
+
+
+                          <div class="email-id">
+                            <a href="mailto:noorafshan@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>noorafshan@neduet.edu.pk</b>
+                            </a>
+                          </div>
+                        </td>
+
+
+                      </tr>
+                    </div>
+                    <!-- END of IT MANAGER SS -->
+                    <!-- IT MANAGER JS-->
+                    <div>
+
+                      <thead>
+                        <tr>
+                          <td colspan="4">
+                            <div align="center" id="it-manager-js" class="table-heads">
+                              <h5 class="categories">IT Managers JS</h5>
                             </div>
+                          </td>
+                        </tr>
+                      </thead>
+                      <!-- 1 -->
+                      <tr>
+                        <td colspan="4">
+                          <div>
+                            <b>Mr. Jamil Asghar. (On Study Leave).</b>
+                          </div>
+                          <div>MCIT (NED). BCIT (NED)
+                          </div>
+
+
+                          <div class="email-id">
+                            <a href="mailto:jameelshar@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>jameelshar@neduet.edu.pk</b>
+                            </a>
+                          </div>
                         </td>
-                        <td>
-                          <b>Assistant Professor</b>
-                        </td>
-                        <td>
-                          <b>2498</b>
-                        </td>
-                        <td class="cv">
-                          <b>CV</b>
+
+
+                      </tr>
+                      <!-- 2 -->
+                      <tr>
+                        <td colspan="4">
+                          <div>
+                            <b>Mrs. Nazish Irfan.</b>
+                          </div>
+                          <div>MS (IT) PIMSAT.
+                          </div>
+
+
+                          <div class="email-id">
+                            <a href="mailto:nazish@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>nazish@neduet.edu.pk</b>
+                            </a>
+                          </div>
                         </td>
 
                       </tr>
                       <!-- 3 -->
                       <tr>
-                        <td>
+                        <td colspan="4">
                           <div>
-                            <b>Dr. Shariq Mahmood Khan.</b>
+                            <b>Mr. Muhammad Imran Shaikh.</b>
                           </div>
-                          <div>Ph.D (Computer Engineering), Brunel University London, UK, MCIT (NED). BCIT (NED).
+                          <div>MCS (Computer Science, University of Karachi). MCIT (NED).
                           </div>
-                          <div>
-                            <div>
-                              <b>Specialization:</b> Wireless Ad-Hoc Routing Protocols and Information Security.</div>
-                            <div class="email-id">
-                              <a href="mailto:shariq@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>shariq@neduet.edu.pk</b>
-                              </a>
-                            </div>
+
+
+                          <div class="email-id">
+                            <a href="mailto:ishaikh@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>ishaikh@neduet.edu.pk</b>
+                            </a>
+                          </div>
                         </td>
-                        <td>
-                          <b>Assistant Professor</b>
-                        </td>
-                        <td>
-                          <b>2385</b>
-                        </td>
-                        <td class="cv">
-                          <b>CV</b>
-                        </td>
+
 
                       </tr>
                       <!-- 4 -->
                       <tr>
-                        <td>
+                        <td colspan="4">
                           <div>
-                            <b>Engr. Dr. Shehnila Zardari.</b>
+                            <b>Mr. Mehboob Ahmed.</b>
                           </div>
-                          <div>PhD (Computer Science), The University of Birmingham, United Kingdom, ME (Communication Systems
-                            & Networks) MUET, Jamshoro. B.E. (Software) MUET Jamshoro.
+                          <div>MS (Computer Networks) KTH, Sweden. BS (Computer Science) Muhammad Ali Jinnah University.
                           </div>
-                          <div>
-                            <div>
-                              <b>Specialization:</b>Cloud Adoption: A Goal-Oriented Requirements Engineering Approach Research
-                              Interests: Requirements Engineering, Risk Management, Cloud Architecture, Software Engineering</div>
-                            <div class="email-id">
-                              <a href="mailto:shenilaz@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>shenilaz@neduet.edu.pk</b>
-                              </a>
-                            </div>
+
+
+                          <div class="email-id">
+                            <a href="mailto:mehmboob@neduet.edu.pk" class="a-faculty" style="color: #373838">
+                              <b>mehmboob@neduet.edu.pk</b>
+                            </a>
+                          </div>
                         </td>
-                        <td>
-                          <b>Assistant Professor</b>
-                        </td>
-                        <td>
-                          <b>2564</b>
-                        </td>
-                        <td class="cv">
-                          <b>CV</b>
-                        </td>
+
 
                       </tr>
-                      <!-- 5 -->
-                      <tr>
-                        <td>
-                          <div>
-                            <b>Engr. Dr. Raheela Asif.</b>
-                          </div>
-                          <div>PhD (Computer Science, NED), MCIT (NED). MS (Software Engineering) SSUET. B.E. (CIS) NED.
-                          </div>
-                          <div>
-                            <div>
-                              <b>Specialization:</b>Educational Data Mining.</div>
-                            <div class="email-id">
-                              <a href="mailto:rahmed@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>rahmed@neduet.edu.pk</b>
-                              </a>
-                            </div>
-                        </td>
-                        <td>
-                          <b>Assistant Professor</b>
-                        </td>
-                        <td>
-                          <b>2399</b>
-                        </td>
-                        <td class="cv">
-                          <b>CV</b>
-                        </td>
-
-                      </tr>
-                      </div>
-                      <!-- End of assistant professors -->
-
-                      <!-- lecturers -->
-                      <div>
-
-                        <thead>
-                          <tr>
-                            <td colspan="4">
-                              <div align="center" id="lecturers" class="table-heads">
-                                <h5 class="categories">Lecturers</h5>
-                              </div>
-                            </td>
-                          </tr>
-                        </thead>
-                        <!-- 1 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>Mr. Waseemullah.</b>
-                            </div>
-                            <div>MCIT (NED). BCIT (NED).
-                            </div>
-                            <div>
-                              <div>
-                                <b>Specialization: </b>Databases and Software Engineering.</div>
-                              <div class="email-id">
-                                <a href="mailto:waseemu@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>waseemu@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2633</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        <!-- 2 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>Me. Umer Farooq</b>
-                            </div>
-                            <div>Ph.D (In Progress from NED), MCIT (NED). BCIT (NED).
-                            </div>
-                            <div>
-                              <div>
-                                <b>Specialization Field of Ph.D: </b>Computer Vision.</div>
-                              <div class="email-id">
-                                <a href="mailto:umer@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>umer@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2633</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        <!-- 3 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>
-                                Mr. Kashif Mehboob Khan.</b>
-                            </div>
-                            <div>MCIT (NED). MCTS. BS (Computer Engineering) SSUET.
-                            </div>
-                            <div>
-                              <div>
-                                <b>Specialization Field of Ph.D: </b> Online Information Security in Financial Transactions</div>
-                              <div class="email-id">
-                                <a href="mailto:kashifmehboobkhan@yahoo.com" class="a-faculty" style="color: #373838">
-                                  <b>kashifmehboobkhan@yahoo.com</b>
-                                </a>
-                              </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2399</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        <!-- 4 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>Ms. Uzma Zehra.</b>
-                            </div>
-                            <div>MS (Computer Science) IBA Karachi. B.E. (CIS) NED.
-                            </div>
-                            <div>
-                              <div>
-                                <b>Specialization:</b> Artificial Intelligance, Software Engineering, Web Development .</div>
-                              <div class="email-id">
-                                <a href="mailto:uzmazehra@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>uzmazehra@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2399</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        <!-- 5 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>Ms. Sidra.</b>
-                            </div>
-                            <div>ME (Communication Systems and Network) MUET, Jamshoro. BE (Software Engineering) MUET, Jamshoro.
-                            </div>
-                            <div>
-                              <div>
-                                <b>Specialization:</b>Image Processing, Software Engineering.</div>
-                              <div class="email-id">
-                                <a href="mailto:sid_sapphire@hotmail.com" class="a-faculty" style="color: #373838">
-                                  <b>sid_sapphire@hotmail.com</b>
-                                </a>
-                              </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2399</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        <!-- 6 -->
-                        <tr>
-                          <td>
-                            <div>
-                              <b>Ms. Maria Andaleeb Siddiqui.</b>
-                            </div>
-                            <div>ME (Computer Networks and Performance Evaluation) NED. B.E. (Telecommunication) NED.
-                            </div>
-
-                            <div>
-                              <b>Specialization Field of Ph.D:</b>Machine Learning.</div>
-                            <div class="email-id">
-                              <a href="mailto:rahmed@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                <b>rahmed@neduet.edu.pk</b>
-                              </a>
-                            </div>
-                          </td>
-                          <td>
-                            <b>Lecturer</b>
-                          </td>
-                          <td>
-                            <b>2399</b>
-                          </td>
-                          <td class="cv">
-                            <b>CV</b>
-                          </td>
-
-                        </tr>
-                        </div>
-
-                        <!-- End of lecturers -->
-
-                        <!-- IT MANAGER JE -->
-                        <div>
-
-                          <thead>
-                            <tr>
-                              <td colspan="4">
-                                <div align="center" id="it-manager-je" class="table-heads">
-                                  <h5 class="categories">IT Manager JE</h5>
-                                </div>
-                              </td>
-                            </tr>
-                          </thead>
-                          <!-- 1 -->
-                          <tr>
-                            <td colspan="2">
-                              <div>
-                                <b>Mr. Muhammad Ejaz Yunus.</b>
-                              </div>
-                              <div>M.Sc (Computer Science) NED. B.E. (Civil) NED.
-                              </div>
+                      <!-- END of IT MANAGER JS-->
 
 
-                              <td colspan="2">
-                                <b>2278</b>
-                              </td>
+        </table>
 
 
-
-                          </tr>
-                        </div>
-                        <!-- END of IT MANAGER JE -->
-                        <!-- IT MANAGER SS -->
-                        <div>
-
-                          <thead>
-                            <tr>
-                              <td colspan="4">
-                                <div align="center" id="it-manager-ss" class="table-heads">
-                                  <h5 class="categories">IT Managers SS</h5>
-                                </div>
-                              </td>
-                            </tr>
-                          </thead>
-                          <!-- 1 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Mr. Amjad Ali</b>
-                              </div>
-                              <div>MCIT NED. B.E. (Mech.) NED.
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:amjad@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>amjad@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-
-                          </tr>
-                          <!-- 2 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Ms. Noor Afshan Vasty.</b>
-                              </div>
-                              <div>BS (Computer Information Systems) (New York).
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:noorafshan@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>noorafshan@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-
-                          </tr>
-                        </div>
-                        <!-- END of IT MANAGER SS -->
-                        <!-- IT MANAGER JS-->
-                        <div>
-
-                          <thead>
-                            <tr>
-                              <td colspan="4">
-                                <div align="center" id="it-manager-js" class="table-heads">
-                                  <h5 class="categories">IT Managers JS</h5>
-                                </div>
-                              </td>
-                            </tr>
-                          </thead>
-                          <!-- 1 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Mr. Jamil Asghar. (On Study Leave).</b>
-                              </div>
-                              <div>MCIT (NED). BCIT (NED)
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:jameelshar@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>jameelshar@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-
-                          </tr>
-                          <!-- 2 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Mrs. Nazish Irfan.</b>
-                              </div>
-                              <div>MS (IT) PIMSAT.
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:nazish@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>nazish@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-                          </tr>
-                          <!-- 3 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Mr. Muhammad Imran Shaikh.</b>
-                              </div>
-                              <div>MCS (Computer Science, University of Karachi). MCIT (NED).
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:ishaikh@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>ishaikh@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-
-                          </tr>
-                          <!-- 4 -->
-                          <tr>
-                            <td colspan="4">
-                              <div>
-                                <b>Mr. Mehboob Ahmed.</b>
-                              </div>
-                              <div>MS (Computer Networks) KTH, Sweden. BS (Computer Science) Muhammad Ali Jinnah University.
-                              </div>
-
-
-                              <div class="email-id">
-                                <a href="mailto:mehmboob@neduet.edu.pk" class="a-faculty" style="color: #373838">
-                                  <b>mehmboob@neduet.edu.pk</b>
-                                </a>
-                              </div>
-                            </td>
-
-
-                          </tr>
-                          <!-- END of IT MANAGER JS-->
-
-
-            </table>
-
-
-            <!-- END OF THE TABLE -->
+        <!-- END OF THE TABLE -->
 
 
 
 
 
 
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <!-- END OF CONTENT -->
+
+        <!-- NEW FOOTER -->
+        <footer class="bs-docs-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+                <ul class="ul-design">
+                  <li>
+                    <h3>About</h3>
+                  </li>
+                  <li>
+                    <h4>Contact</h4>021- 99261261</li>
+                  <li>
+                    <h4>Location</h4> Main University Road, Karachi, 75270</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+                <h3>Programmes</h3>
+                <ul class="ul-design">
+                  <li>
+                    <a class="footer-a" href="">BS-CSIT</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">BS-SE</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">BE-SE</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">MS-SE</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">MS-CSIT</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <ul class="ul-design">
+                  <li>
+                    <h3>Faculty</h3>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Sir Amjad</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Sir Najeed</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Miss Nazish</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Miss Uzma</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Miss Maria Andaleeb</a>
+                  </li>
+                  <li>
+                    <a class="footer-a" href="">Mr John</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            </div>
-            </div>
-
-
-
-
-            <!-- END OF CONTENT -->
-
-            <!-- NEW FOOTER -->
-            <footer class="bs-docs-footer">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-                    <ul class="ul-design">
-                      <li>
-                        <h3>About</h3>
-                      </li>
-                      <li>
-                        <h4>Contact</h4>021- 99261261</li>
-                      <li>
-                        <h4>Location</h4> Main University Road, Karachi, 75270</li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-                    <h3>Programmes</h3>
-                    <ul class="ul-design">
-                      <li>
-                        <a class="footer-a" href="">BS-CSIT</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">BS-SE</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">BE-SE</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">MS-SE</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">MS-CSIT</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12">
-                    <ul class="ul-design">
-                      <li>
-                        <h3>Faculty</h3>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Sir Amjad</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Sir Najeed</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Miss Nazish</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Miss Uzma</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Miss Maria Andaleeb</a>
-                      </li>
-                      <li>
-                        <a class="footer-a" href="">Mr John</a>
-                      </li>
-                    </ul>
+            <hr>
+            <div class="row">
+              <div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="container container-style">
+                    <a class="footer-a" href="">
+                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
                   </div>
                 </div>
-                <hr>
-                <div class="row">
-                  <div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="container container-style">
-                        <a class="footer-a" href="">
-                          <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="container container-style">
-                        <a class="footer-a" href="">
-                          <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                      <div class="container container-style">
-                        <a class="footer-a" href="">
-                          <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
-                      </div>
-                    </div>
-                    <!-- <ul>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="container container-style">
+                    <a class="footer-a" href="">
+                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <div class="container container-style">
+                    <a class="footer-a" href="">
+                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
+                  </div>
+                </div>
+                <!-- <ul>
             <li class="socials ul-design">
               <i class="fa fa-instagram-official" aria-hidden="true"></i>Instagram
             </li>
@@ -1099,14 +1059,14 @@
               <i class="fa fa-facebook-official" aria-hidden="true"><a href="#">Facebook</a></i>
             </li>
           </ul> -->
-                  </div>
-                </div>
-                <hr>
-                <div class="copyrights">
-                  <p>Copyright © 2017 , NED. All Rights Reserved</p>
-                </div>
               </div>
-            </footer>
+            </div>
+            <hr>
+            <div class="copyrights">
+              <p>Copyright © 2017 , NED. All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
 
 </body>
 

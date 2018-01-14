@@ -1,3 +1,4 @@
+<!-- PROJECTS PAGE -->
 <!DOCTYPE html>
 
 <html>
@@ -59,1230 +60,1193 @@
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+  <!-- START OF NAV -->
+  <div class="mainNavbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://disputebills.com">
+            <img src="assets/SELogo2.png" alt="Dispute Bills">
+          </a>
+        </div>
+        <div id="navbar3" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="courses.html">Programmes</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="faculty.html">Faculty</a>
+                </li>
+                <li>
+                  <a href="research.html">Research</a>
+                </li>
+                <li>
+                  <a href="alumni.html">Alumni</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
+
+
+  <!-- END OF NAV -->
+
+  <!-- MAIN CONTENT -->
+
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <!-- THE MAIN HEADER -->
-        <div class="mainHeader fixedPosition">
-          <img class="mainLogo" src="assets/logo.png">
-          <h1 class="mainHeading">
-            <a href="" style="color: white">Department Of Software Engineering</a>
-          </h1>
-        </div>
+      <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" data-spy="affix" data-offset-top="70">
+          <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+              <a href="#">
+                Final Year Projects
+              </a>
 
+            </li>
+            <li style="padding-top: 10px;">
+              <a href="#b2018" class="scrol">Batch: 2017-2018</a>
+            </li>
+            <li>
+              <a href="#b2017" class="scrol">Batch: 2016-2017</a>
+            </li>
+            <li>
+              <a href="#b2016" class="scrol">Batch: 2015-2016</a>
+            </li>
+            <li>
+              <a href="#b2015" class="scrol">Batch: 2014-2015</a>
+              <li>
+                <a href="#b2018" class="scrol">Back To Top</a>
+              </li>
+          </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
       </div>
 
-      <!-- THE MAIN NAVBAR -->
-      <nav class="navbar navbar-default navbar-inverse ">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-              aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
+      <div class="col-sm-9" style="padding-right: 0;">
 
-          <div class="collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="active">
-                <a href="projects.html">Projects</a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes
-                  <span class="caret"></span>
-                </a>
 
-                <ul class="dropdown-menu">
+        <!--TABLE-->
+        <table class="table  table-hover">
+          <thead id="TAB">
+            <tr>
+              <td>
+                <h4>Serial No</h4>
+              </td>
+              <td>
+                <h4>Project Title</h4>
+              </td>
+              <td>
+                <h4>Project Members</h4>
+              </td>
+              <td>
+                <h4>Internal Advisor</h4>
+              </td>
+
+            </tr>
+          </thead>
+
+          <thead>
+            <tr>
+              <td colspan="4">
+                <div align="center" id="professors" class="">
+                  <h5 class="categories">Batch 2017-2018</h5>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <!-- Batch 2017-2018 -->
+          <div id="b2018">
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>1.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Smart Events</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
                   <li>
-                    <a href="#">BS-CSIT</a>
+                    Maryam Qadeer Ahmed (SE-052)
                   </li>
                   <li>
-                    <a href="#">BS-SE</a>
+                    Afreen Khalid (SE-064)
                   </li>
                   <li>
-                    <a href="#">BE-SE</a>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li>
-                    <a href="#">MS-SE</a>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li>
-                    <a href="#">MS-CSIT</a>
+                    Maira Fatima (SE-074)
                   </li>
                 </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Engr. Amjad Ali</b>
+              </td>
 
-              </li>
+            </tr>
 
-              <!-- Remove this from its individual 'ul with nav navbar-nav'.Creates a diff row in the table -->
-              <li>
-                <a href="faculty.html">Faculty</a>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More
-                  <span class="caret"></span>
-                </a>
+            <tr>
+              <td class="serialNoSpacing">
+                <p>2.</p>
+              </td>
 
-                <ul class="dropdown-menu">
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Vision Based Traffic Light Control</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
                   <li>
-                    <a href="#">Research</a>
+                    Areeba Feroz (SE-015)
                   </li>
                   <li>
-                    <a href="#">Alumni</a>
+                    Syeda Areeba Khalid (SE-008)
                   </li>
-                  <li role="separator" class="divider"></li>
                   <li>
-                    <a href="#">Contact</a>
+                    Romeesa Khan (SE-046)
                   </li>
                 </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Prof. Dr Sohail Abdul Sattar</b>
+              </td>
 
-              </li>
-            </ul>
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>3.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Khabardaar: An Online Crime Reporting System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Amna Ejaz (SE-004)
+                  </li>
+                  <li>
+                    Faiza Yameen (SE-017)
+                  </li>
+                  <li>
+                    Faria Ejaz (SE-018)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Saman Hina</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>4.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Statistical Analysis on Cricket Playeers Performances</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    M. Hammad Haider (SE-020)
+                  </li>
+                  <li>
+                    Syed Dayan Qaim (SE-066)
+                  </li>
+                  <li>
+                    Haris Ali Khan (SE-047)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Raheela Asif</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>5.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Count It</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Haifz Sumul Fafiq (SE-002)
+                  </li>
+                  <li>
+                    Shaista Abbasi (SE-014)
+                  </li>
+                  <li>
+                    Hira Owais (SE-016)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Shehnila Zardari</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>6.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Auto Soft</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Mobin Ahmed (SE-058)
+                  </li>
+                  <li>
+                    Shayan Sikander (SE-056)
+                  </li>
+
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Raheela Asif</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>7.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>NED Explorer Application</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Amna Sher Afal (SE-028)
+                  </li>
+                  <li>
+                    Hooriya Jawaid (SE-030)
+                  </li>
+                  <li>
+                    Daniyha Ali (SE-044)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Shariq Mahmood Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>8.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Authorized Car Parking System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Batool Abbas Ali (SE-025)
+                  </li>
+                  <li>
+                    Pareesha Bashir (SE-009)
+                  </li>
+                  <li>
+                    Rabia Jamil (SE-034)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Engr. Amjad Ali</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>9.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Walk With Us</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Behaj Uddin (SE-055)
+                  </li>
+                  <li>
+                    Syed Ali Abbas Hashim (SE-053)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Shariq Mahmood Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>10.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Human Resource Management System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Syeda Rafia Iqbal (SE-045)
+                  </li>
+                  <li>
+                    Areeb Ahmed Khan (SE-059)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Engr. Amjad Ali</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>11.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>E-Pass Bus System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Haris Ahmed Siddique (SE-060)
+                  </li>
+                  <li>
+                    Farjaz Ahmed Yazdani (SE-013)
+                  </li>
+                  <li>
+                    M. Talha Rehman (SE-068)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Shariq Mahmood Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>12.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>SE Final Year Project Management System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    M. Bilal Mateen (SE-042)
+                  </li>
+                  <li>
+                    M. Fuzail Siddiqui (SE-043)
+                  </li>
+
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Raheela Asif</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>13.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>R2R-Report to Resolve</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Romaisa Iqbal (SE-049)
+                  </li>
+                  <li>
+                    Hira Ali (SE-069)
+                  </li>
+                  <li>
+                    Dua Moqeem (SE-038)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Engr. Amjad Ali</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>14.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>E-Governance System</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Fatima Saleem (SE-050)
+                  </li>
+                  <li>
+                    Mona Shahid (SE-051)
+                  </li>
+                  <li>
+                    Madiha Tariq (SE-067)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Raheela Asif</b>
+              </td>
+
+            </tr>
+            <tr>
+              <td class="serialNoSpacing">
+                <p>15.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>ACuRE-Analysis on Customer Recognition</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Shariat Mushahid (SE-057)
+                  </li>
+                  <li>
+                    Hadia Arif (SE-022)
+                  </li>
+                  <li>
+                    Uzma Ghauri (SE-023)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Najeed Ahmed Khan </b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>16.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Charity Tracker</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Zameer Ali (SE-006)
+                  </li>
+                  <li>
+                    M. Ibrahim Sheikh (SE-019)
+                  </li>
+                  <li>
+                    M. Hammad Haider (SE-048)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Muhammad Mubashir Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>17.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Payonce</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Sarrah Hussain (SE-003)
+                  </li>
+                  <li>
+                    Naeem Ahmed (SE-033)
+                  </li>
+                  <li>
+                    Hafiza Syeda Bisma Shah (SE-024)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Ms. Sidra</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>18.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Cryptonite</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Nida Irfan (SE-027)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Muhammad Mubashir Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>19.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>NEDUET Shuttle Service Tracking</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Maham Farooqui (SE-005)
+                  </li>
+                  <li>
+                    Lubaba (SE-029)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Shariq Mahmood Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>20.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Detecting Fake News using Machine Learning</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Samrah Asif Syed (SE-071)
+                  </li>
+                  <li>
+                    Ushna Shaheen (SE-065)
+                  </li>
+                  <li>
+                    Hafsa Ali (SE-301)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Muhammad Mubashir Khan / Dr. Saman Hina</b>
+              </td>
+
+            </tr>
+            <tr>
+              <td class="serialNoSpacing">
+                <p>21.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Blockchain based Identity Management</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Haady Um Minallah (SE-072)
+                  </li>
+                  <li>
+                    S. Walid Arshad (SE-061)
+                  </li>
+                  <li>
+                    Hafiz M. Hasan Khan (SE-054)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Muhammad Mubashir Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>22.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Privacy and Security of Medical and E-Health System using Blockchain</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Aiman Abbasi (SE-039)
+                  </li>
+                  <li>
+                    Khunsha Ahmed Sheikh (SE-021)
+                  </li>
+                  <li>
+                    Namra Nadeem (SE-036)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Muhammad Mubashir Khan</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>23.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Build Dataware House having Data from Heterogenous and Homogenous Sources</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Areesha Altaf (SE-012)
+                  </li>
+                  <li>
+                    Komal Mirza (SE-035)
+                  </li>
+                  <li>
+                    Alisha Najam (SE-040)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Dr. Raheela Asif</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>24.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Data Mining</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Ahsan Khan (SE-037)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Prof. Dr. Sohail Abdul Sattar</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>25.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Tourist Guide</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Ahsan Riaz (SE-041)
+                  </li>
+                  <li>
+                    Sher Muhammad (SE-010)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Ms. Sidra</b>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td class="serialNoSpacing">
+                <p>26.</p>
+              </td>
+
+              <td class="nameDescriptionSpacing">
+                <!-- Project Name and Description -->
+                <div>
+                  <b>Game Control using Mind</b>
+                </div>
+                <div></div>
+                <div>
+                  <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
+                  cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed blanditiis
+                  ipsam. Possimus?</div>
+              </td>
+              <td class="studentNameSpacing">
+                <!-- Project Members -->
+                <ul>
+                  <li>
+                    Muhammad Fahad (CT-13303)
+                  </li>
+                  <li>
+                    Hamza Ali (SE-13303)
+                  </li>
+                  <li>
+                    Osama Ahmed (SE-031)
+                  </li>
+                  <li>
+                    Shehzad Ghulam (SE-062)
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <!-- Internal Advisor -->
+                <b>Prof. Dr. Najmi Ghani Haider</b>
+              </td>
+
+            </tr>
           </div>
-          <!-- /.navbar-collapse -->
+          <!-- END OF 2017-2018 -->
+          <!-- ADDING EMPTY LINES FOR OLDER ONES -->
+          <thead>
+            <tr>
+              <td colspan="4">
+                <div align="center" id="b2017" class="table-headers">
+                  <h5 class="categories">Batch 2016-2017</h5>
+                </div>
+              </td>
+            </tr>
+          </thead>
 
+          <thead>
+            <tr>
+              <td colspan="4">
+                <div align="center" id="b2016" class="table-headers">
+                  <h5 class="categories">Batch 2015-2016</h5>
+                </div>
+              </td>
+            </tr>
+          </thead>
+
+        </table>
+        <!-- END OF THE TABLE -->
+        <p>*Kindly refer to this website for further details:
+          <a href="https://sites.google.com/site/fypbcit/" id="websiteLink">CSSE Projects</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- END OF CONTENT -->
+
+  <!-- NEW FOOTER -->
+  <footer class="bs-docs-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+          <ul class="ul-design">
+            <li>
+              <h3>About</h3>
+            </li>
+            <li>
+              <h4>Contact</h4>021- 99261261</li>
+            <li>
+              <h4>Location</h4> Main University Road, Karachi, 75270</li>
+          </ul>
         </div>
-        <!-- /.container-fluid -->
-      </nav>
+        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+          <h3>Programmes</h3>
+          <ul class="ul-design">
+            <li>
+              <a class="footer-a" href="">BS-CSIT</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">BS-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">BE-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">MS-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">MS-CSIT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <ul class="ul-design">
+            <li>
+              <h3>Faculty</h3>
+            </li>
+            <li>
+              <a class="footer-a" href="">Sir Amjad</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Sir Najeed</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Nazish</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Uzma</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Maria Andaleeb</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Mr John</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
 
-      <!-- MAIN CONTENT -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
-            <!-- Sidebar -->
-            <div id="sidebar-wrapper" data-spy="affix" data-offset-top="80">
-              <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                  <a href="#">
-                    Final Year Projects
-                  </a>
-
-                </li>
-                <li style="padding-top: 10px;">
-                  <a href="#b2018" class="scrol">Batch: 2017-2018</a>
-                </li>
-                <li>
-                  <a href="#b2017" class="scrol">Batch: 2016-2017</a>
-                </li>
-                <li>
-                  <a href="#b2016" class="scrol">Batch: 2015-2016</a>
-                </li>
-                <li>
-                  <a href="#b2015" class="scrol">Batch: 2014-2015</a>
-                  <li>
-                    <a href="#b2018" class="scrol">Back To Top</a>
-                  </li>
-              </ul>
+      <div class="row">
+        <div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
             </div>
-            <!-- /#sidebar-wrapper -->
           </div>
-
-          <div class="col-sm-9" style="padding-right: 0;">
-
-
-            <!--TABLE-->
-            <table class="table  table-hover">
-              <thead id="TAB">
-                <tr>
-                  <td>
-                    <h4>Serial No</h4>
-                  </td>
-                  <td>
-                    <h4>Project Title</h4>
-                  </td>
-                  <td>
-                    <h4>Project Members</h4>
-                  </td>
-                  <td>
-                    <h4>Internal Advisor</h4>
-                  </td>
-
-                </tr>
-              </thead>
-
-              <thead>
-                <tr>
-                  <td colspan="4">
-                    <div align="center" id="professors" class="">
-                      <h5 class="categories">Batch 2017-2018</h5>
-                    </div>
-                  </td>
-                </tr>
-              </thead>
-              <!-- Batch 2017-2018 -->
-              <div id="b2018">
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>1.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Smart Events</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Maryam Qadeer Ahmed (SE-052)
-                      </li>
-                      <li>
-                        Afreen Khalid (SE-064)
-                      </li>
-                      <li>
-                        Maira Fatima (SE-074)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Engr. Amjad Ali</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>2.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Vision Based Traffic Light Control</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Areeba Feroz (SE-015)
-                      </li>
-                      <li>
-                        Syeda Areeba Khalid (SE-008)
-                      </li>
-                      <li>
-                        Romeesa Khan (SE-046)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Prof. Dr Sohail Abdul Sattar</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>3.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Khabardaar: An Online Crime Reporting System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Amna Ejaz (SE-004)
-                      </li>
-                      <li>
-                        Faiza Yameen (SE-017)
-                      </li>
-                      <li>
-                        Faria Ejaz (SE-018)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Saman Hina</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>4.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Statistical Analysis on Cricket Playeers Performances</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        M. Hammad Haider (SE-020)
-                      </li>
-                      <li>
-                        Syed Dayan Qaim (SE-066)
-                      </li>
-                      <li>
-                        Haris Ali Khan (SE-047)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Raheela Asif</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>5.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Count It</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Haifz Sumul Fafiq (SE-002)
-                      </li>
-                      <li>
-                        Shaista Abbasi (SE-014)
-                      </li>
-                      <li>
-                        Hira Owais (SE-016)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Shehnila Zardari</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>6.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Auto Soft</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Mobin Ahmed (SE-058)
-                      </li>
-                      <li>
-                        Shayan Sikander (SE-056)
-                      </li>
-
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Raheela Asif</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>7.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>NED Explorer Application</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Amna Sher Afal (SE-028)
-                      </li>
-                      <li>
-                        Hooriya Jawaid (SE-030)
-                      </li>
-                      <li>
-                        Daniyha Ali (SE-044)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Shariq Mahmood Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>8.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Authorized Car Parking System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Batool Abbas Ali (SE-025)
-                      </li>
-                      <li>
-                        Pareesha Bashir (SE-009)
-                      </li>
-                      <li>
-                        Rabia Jamil (SE-034)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Engr. Amjad Ali</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>9.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Walk With Us</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Behaj Uddin (SE-055)
-                      </li>
-                      <li>
-                        Syed Ali Abbas Hashim (SE-053)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Shariq Mahmood Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>10.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Human Resource Management System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Syeda Rafia Iqbal (SE-045)
-                      </li>
-                      <li>
-                        Areeb Ahmed Khan (SE-059)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Engr. Amjad Ali</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>11.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>E-Pass Bus System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Haris Ahmed Siddique (SE-060)
-                      </li>
-                      <li>
-                        Farjaz Ahmed Yazdani (SE-013)
-                      </li>
-                      <li>
-                        M. Talha Rehman (SE-068)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Shariq Mahmood Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>12.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>SE Final Year Project Management System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        M. Bilal Mateen (SE-042)
-                      </li>
-                      <li>
-                        M. Fuzail Siddiqui (SE-043)
-                      </li>
-
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Raheela Asif</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>13.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>R2R-Report to Resolve</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Romaisa Iqbal (SE-049)
-                      </li>
-                      <li>
-                        Hira Ali (SE-069)
-                      </li>
-                      <li>
-                        Dua Moqeem (SE-038)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Engr. Amjad Ali</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>14.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>E-Governance System</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Fatima Saleem (SE-050)
-                      </li>
-                      <li>
-                        Mona Shahid (SE-051)
-                      </li>
-                      <li>
-                        Madiha Tariq (SE-067)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Raheela Asif</b>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>15.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>ACuRE-Analysis on Customer Recognition</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Shariat Mushahid (SE-057)
-                      </li>
-                      <li>
-                        Hadia Arif (SE-022)
-                      </li>
-                      <li>
-                        Uzma Ghauri (SE-023)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Najeed Ahmed Khan </b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>16.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Charity Tracker</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Zameer Ali (SE-006)
-                      </li>
-                      <li>
-                        M. Ibrahim Sheikh (SE-019)
-                      </li>
-                      <li>
-                        M. Hammad Haider (SE-048)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Muhammad Mubashir Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>17.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Payonce</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Sarrah Hussain (SE-003)
-                      </li>
-                      <li>
-                        Naeem Ahmed (SE-033)
-                      </li>
-                      <li>
-                        Hafiza Syeda Bisma Shah (SE-024)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Ms. Sidra</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>18.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Cryptonite</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Nida Irfan (SE-027)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Muhammad Mubashir Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>19.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>NEDUET Shuttle Service Tracking</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Maham Farooqui (SE-005)
-                      </li>
-                      <li>
-                        Lubaba (SE-029)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Shariq Mahmood Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>20.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Detecting Fake News using Machine Learning</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Samrah Asif Syed (SE-071)
-                      </li>
-                      <li>
-                        Ushna Shaheen (SE-065)
-                      </li>
-                      <li>
-                        Hafsa Ali (SE-301)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Muhammad Mubashir Khan / Dr. Saman Hina</b>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>21.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Blockchain based Identity Management</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Haady Um Minallah (SE-072)
-                      </li>
-                      <li>
-                        S. Walid Arshad (SE-061)
-                      </li>
-                      <li>
-                        Hafiz M. Hasan Khan (SE-054)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Muhammad Mubashir Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>22.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Privacy and Security of Medical and E-Health System using Blockchain</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Aiman Abbasi (SE-039)
-                      </li>
-                      <li>
-                        Khunsha Ahmed Sheikh (SE-021)
-                      </li>
-                      <li>
-                        Namra Nadeem (SE-036)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Muhammad Mubashir Khan</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>23.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Build Dataware House having Data from Heterogenous and Homogenous Sources</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Areesha Altaf (SE-012)
-                      </li>
-                      <li>
-                        Komal Mirza (SE-035)
-                      </li>
-                      <li>
-                        Alisha Najam (SE-040)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Dr. Raheela Asif</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>24.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Data Mining</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Ahsan Khan (SE-037)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Prof. Dr. Sohail Abdul Sattar</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>25.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Tourist Guide</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Ahsan Riaz (SE-041)
-                      </li>
-                      <li>
-                        Sher Muhammad (SE-010)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Ms. Sidra</b>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td class="serialNoSpacing">
-                    <p>26.</p>
-                  </td>
-
-                  <td class="nameDescriptionSpacing">
-                    <!-- Project Name and Description -->
-                    <div>
-                      <b>Game Control using Mind</b>
-                    </div>
-                    <div></div>
-                    <div>
-                      <b>Description:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione. Eum repellendus
-                      cum soluta voluptatem autem, facere quo dolorem aliquid cumque nisi omnis ipsum harum adipisci sed
-                      blanditiis ipsam. Possimus?</div>
-                  </td>
-                  <td class="studentNameSpacing">
-                    <!-- Project Members -->
-                    <ul>
-                      <li>
-                        Muhammad Fahad (CT-13303)
-                      </li>
-                      <li>
-                        Hamza Ali (SE-13303)
-                      </li>
-                      <li>
-                        Osama Ahmed (SE-031)
-                      </li>
-                      <li>
-                        Shehzad Ghulam (SE-062)
-                      </li>
-                    </ul>
-                  </td>
-                  <td>
-                    <!-- Internal Advisor -->
-                    <b>Prof. Dr. Najmi Ghani Haider</b>
-                  </td>
-
-                </tr>
-              </div>
-              <!-- END OF 2017-2018 -->
-              <!-- ADDING EMPTY LINES FOR OLDER ONES -->
-              <thead>
-                <tr>
-                  <td colspan="4">
-                    <div align="center" id="b2017" class="table-headers">
-                      <h5 class="categories">Batch 2016-2017</h5>
-                    </div>
-                  </td>
-                </tr>
-              </thead>
-
-              <thead>
-                <tr>
-                  <td colspan="4">
-                    <div align="center" id="b2016" class="table-headers">
-                      <h5 class="categories">Batch 2015-2016</h5>
-                    </div>
-                  </td>
-                </tr>
-              </thead>
-
-            </table>
-            <!-- END OF THE TABLE -->
-            <p>*Kindly refer to this website for further details:
-              <a href="https://sites.google.com/site/fypbcit/" id="websiteLink">CSSE Projects</a>
-            </p>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
+            </div>
           </div>
         </div>
       </div>
-
-
-      <!-- END OF CONTENT -->
-
-      <!-- NEW FOOTER -->
-      <footer class="bs-docs-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-              <ul class="ul-design">
-                <li>
-                  <h3>About</h3>
-                </li>
-                <li>
-                  <h4>Contact</h4>021- 99261261</li>
-                <li>
-                  <h4>Location</h4> Main University Road, Karachi, 75270</li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-              <h3>Programmes</h3>
-              <ul class="ul-design">
-                <li>
-                  <a class="footer-a" href="">BS-CSIT</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">BS-SE</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">BE-SE</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">MS-SE</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">MS-CSIT</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <ul class="ul-design">
-                <li>
-                  <h3>Faculty</h3>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Sir Amjad</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Sir Najeed</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Miss Nazish</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Miss Uzma</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Miss Maria Andaleeb</a>
-                </li>
-                <li>
-                  <a class="footer-a" href="">Mr John</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <hr>
-
-
-          <div class="row">
-            <div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="container container-style">
-                  <a class="footer-a" href="">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="container container-style">
-                  <a class="footer-a" href="">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="container container-style">
-                  <a class="footer-a" href="">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="copyrights">
-            <p>Copyright © 2017 , NED. All Rights Reserved</p>
-          </div>
-        </div>
-      </footer>
+      <hr>
+      <div class="copyrights">
+        <p>Copyright © 2017 , NED. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
