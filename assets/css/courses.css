@@ -1,0 +1,40 @@
+body {
+    padding-top: 100px;
+}
+.stretchIt {
+    margin: 0 100px;
+}
+
+th {
+    background: indianred;  /* fallback for old browsers */
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: bisque;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Century Gothic', 'Poppins';
+}
+
+/* .col-md-4:nth-of-type(odd) {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.col-md-4:nth-of-type(even) {
+    margin-left: 20px;
+    margin-right: 200px;
+} */
+
+
+
+/* FOR SMALL SCREENS
+@media screen and (max-width:890px) {
+    .stretchIt {
+        margin: 0 150px;
+    }
+} */
