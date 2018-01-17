@@ -5,17 +5,30 @@
 	text-align: center;
 	margin-bottom: 25px;
 }
-
+.heading{
+	
+	/*background: #ffe6e6;   fallback for old browsers */
+	/*padding: 15px;*/
+	background: #990000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #990000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #990000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 10px;
+/*border-radius: 5px;*/
+box-shadow: 1px 1px 3px rgba(44,71,0, 0.4);
+}
 a{
 	color: #074E8C;
 }
-
+.research-areas{
+	/*background: #ffe6e6;*/
+	padding: 10px;
+}
 .scrollbar
 {
 	margin-left: 30px;
 	float: left;
-	height: 300px;
-	width: 400px;
+	height: 500px;
+	width: 900px;
 	background: #F5F5F5;
 	overflow-y: scroll;
 	margin-bottom: 25px;
@@ -23,14 +36,14 @@ a{
 
 .force-overflow
 {
-	min-height: 450px;
+	height: 500px;
 }
 
 #wrapper
 {
 	text-align: center;
-	width: 500px;
-	margin: auto;
+	width: 900px;
+	margin-left: 140px;
 }
 
 /*
@@ -204,9 +217,9 @@ a{
 	background-image: -webkit-gradient(linear,
 									   left bottom,
 									   left top,
-									   color-stop(0.44, rgb(122,153,217)),
-									   color-stop(0.72, rgb(73,125,189)),
-									   color-stop(0.86, rgb(28,58,148)));
+									   color-stop(0.44, rgb(128,0,0)),
+									   color-stop(0.72, rgb(128,1,2)),
+									   color-stop(0.86, rgb(128,58,2)));
 }
 
 /*
