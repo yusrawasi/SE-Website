@@ -97,13 +97,13 @@ a:hover {
 }
 
 .item img {
-    height: 400px !important;
+    height: 520px !important;
     width: 850px !important;
 }
 
 .carousel {
-	margin: 20px auto;
-  width:500px;
+	margin: 25px auto;
+  width:700px;
   height:50%;
 }
 
