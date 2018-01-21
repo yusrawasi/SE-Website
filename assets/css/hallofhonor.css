@@ -1,0 +1,91 @@
+body {
+    padding-top: 110px;
+}
+
+.main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+
+.box {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+li {
+    font: red;
+}
+
+#TAB {
+    background: #990000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #eef2f3, #990000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #eef2f3, #990000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(44, 71, 0, 0.4);
+}
+
+.cv:hover,
+.email-id:hover {
+    text-decoration: underline;
+}
+
+.categories {
+    background: #ffe6e6;
+    /* fallback for old browsers */
+    padding: 15px;
+    /*background: -webkit-linear-gradient(to top, #eef2f3, #990000);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to top, #eef2f3, #990000);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.table-heads {
+    padding-top: 115px;
+}
+
+
+/* CODE FOR TABLES */
+
+.fa-plus {
+    float: right;
+}
+
+/* 
+.displayOff {
+    display: none;
+
+} */
+
+tr {
+    height: 10px;
+}
+
+
+/* TABLE STYLES */
+th {
+    background: indianred;  /* fallback for old browsers */
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: bisque;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Century Gothic', 'Poppins';
+}
+
+.editable {
+    margin: 0 auto;
+}
+
+.active {
+    background: purple;
+}
