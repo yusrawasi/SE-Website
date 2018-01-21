@@ -3,360 +3,388 @@
 <html>
 
 <head>
-    <title>Software Engineering - SE</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software Engineering - SE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="assets/logo.png" />
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="assets/logo.png" />
 
 
-    <link rel="stylesheet" type="text/css" href="assets/css/hover-box.css">
-    <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- owl carousel library -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
-    <!-- I've added a CDN.  -->
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/research.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/hover-box.css">
+  <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css"> -->
 
-    <!-- jQuery -->
-    <script src="assets/js/lib/jQuery.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Poppins font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <!-- owl carousel library -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
-<style type="text/css">
-    .links{
-        padding: 7%;
-    }
-    .download{
-        padding-left: 10%;
-    }
-    .sections a{
-        color: black;
-        /*font-weight: bold;*/
-        font-size: 130%
-    }
-    .sections a:hover{
-        text-decoration: underline;
-    }
-    
-    .grids{
+  <!-- I've added a CDN.  -->
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/research.css">
 
-height: 220px;
-    }
-    .col-md-5, .col-md-3, .col-lg-5, .col-md-3 {
-    margin: 3.5%;
-        }
+  <!-- jQuery -->
+  <script src="assets/js/lib/jQuery.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- Poppins font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 
-    .parallax-2{
-        /* The image used */
-    background-image: url("https://static4.depositphotos.com/1000363/354/i/950/depositphotos_3546365-stock-photo-notice-board-background.jpg");
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-21.jpg");
-    background-image: url("https://images.unsplash.com/photo-1451272331829-bfd8c0a426c5?auto=format&fit=crop&w=1506&q=80");
-    background-image: url("https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&w=750&q=80");
-    /* Set a specific height */
-    min-height: 300px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  <style type="text/css">
+    .links {
+      padding: 7%;
     }
 
-    
-</style>
+    .download {
+      padding-left: 10%;
+    }
+
+    .sections a {
+      color: black;
+      /*font-weight: bold;*/
+      font-size: 130%
+    }
+
+    .sections a:hover {
+      text-decoration: underline;
+    }
+
+    .grids {
+
+      height: 220px;
+    }
+
+    .col-md-5,
+    .col-md-3,
+    .col-lg-5,
+    .col-md-3 {
+      margin: 3.5%;
+    }
+
+    .parallax-2 {
+      /* The image used */
+      background-image: url("https://static4.depositphotos.com/1000363/354/i/950/depositphotos_3546365-stock-photo-notice-board-background.jpg");
+      background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-21.jpg");
+      background-image: url("https://images.unsplash.com/photo-1451272331829-bfd8c0a426c5?auto=format&fit=crop&w=1506&q=80");
+      background-image: url("https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&w=750&q=80");
+      /* Set a specific height */
+      min-height: 300px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 
 </head>
 
 <body class="parallax-2">
-    <!-- START OF NAV -->
-    <div class="mainNavbar">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/SELogo2.png" alt="NEDUET-SE">
-                    </a>
-                </div>
-                <div id="navbar3" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li >
-                            <a href="courses.html">Programmes</a>
-                        </li>
-                        <li >
-                            <a href="projects.html">Projects</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="faculty.html">Faculty</a>
-                                </li>
-                                <li >
-                                    <a href="research.html">Research</a>
-                                </li>
-                                <li>
-                                    <a href="alumni.html">Alumni</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header"></li>
-                                <li>
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-            <!--/.container-fluid -->
-        </nav>
-    </div>
+  <!-- START OF NAV -->
+  <div class="mainNavbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/SELogo2.png" alt="NEDUET-SE">
+          </a>
+        </div>
+        <div id="navbar3" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="courses.html">Programmes</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="faculty.html">Faculty</a>
+                </li>
+                <li>
+                  <a href="hallofhonor.html">Hall Of Honor</a>
+                </li>
+                <li>
+                  <a href="research.html">Research</a>
+                </li>
+                <li>
+                  <a href="alumni.html">Alumni</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
 
- 
+
   <!-- END OF NAV -->
 
 
   <!-- 
   tables -->
-  <div style="margin-top: 5%;" class="slideshow-container"> 
+  <div style="margin-top: 5%;" class="slideshow-container">
     <!-- Fe and SE -->
-  <div class="row  ">
-    <!-- FE -->
- <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 "> 
-<div class="row">
-                            <div class="col-xs-12 content-heading">
-                                <h3>First Year</h3>
-                            </div>
-                        </div>
-<!-- #fceaef -->
-<div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
-                            
-                                <div class="links">
- <span class="sections"><a  " href="assets/timetables/FE-Sec-A.pdf" >FE-Sec-A</a></span> 
-<span class="download"><a href="assets/timetables/FE-Sec-A.pdf" download class="btn btn-primary btn-lg active" role="button" >Download</a></span>
+    <div class="row  ">
+      <!-- FE -->
+      <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 ">
+        <div class="row">
+          <div class="col-xs-12 content-heading">
+            <h3>First Year</h3>
+          </div>
+        </div>
+        <!-- #fceaef -->
+        <div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
+
+          <div class="links">
+            <span class="sections">
+              <a " href="assets/timetables/FE-Sec-A.pdf " >FE-Sec-A</a></span> 
+<span class="download "><a href="assets/timetables/FE-Sec-A.pdf " download class="btn btn-primary btn-lg active
+                " role="button " >Download</a></span>
 </div>
-                             <div class="links">
- <span class="sections"><a  " href="assets/timetables/FE-Sec-B.pdf" >FE-Sec-B</a></span> 
-<span class="download"><a href="assets/timetables/FE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
-</div>
-            
-                        </div>
+                             <div class="links ">
+ <span class="sections "><a  " href="assets/timetables/FE-Sec-B.pdf">FE-Sec-B</a>
+            </span>
+            <span class="download">
+              <a href="assets/timetables/FE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a>
+            </span>
+          </div>
+
+        </div>
 
 
 
 
- </div>
- <!-- End of FE-->
- <!-- SE -->
-  <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12"> 
-<div class="row">
-                            <div class="col-xs-12 content-heading">
-                                <h3>Second Year</h3>
-                            </div>
-                        </div>
+      </div>
+      <!-- End of FE-->
+      <!-- SE -->
+      <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12">
+        <div class="row">
+          <div class="col-xs-12 content-heading">
+            <h3>Second Year</h3>
+          </div>
+        </div>
 
-<div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
+        <div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
 
-                            
-               <div class="links" >
-    <span class="sections"><a  " href="assets/timetables/SE-Sec-A.pdf" >SE-Sec-A</a></span> 
 
-<span class="download"><a href="assets/timetables/SE-Sec-A.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
+          <div class="links">
+            <span class="sections">
+              <a " href="assets/timetables/SE-Sec-A.pdf " >SE-Sec-A</a></span> 
+
+<span class="download "><a href="assets/timetables/SE-Sec-A.pdf " download class="btn btn-primary btn-lg active
+                " role="button ">Download</a></span>
 </div>                 
-               <div class="links" >
-    <span class="sections"><a  " href="assets/timetables/SE-Sec-B.pdf" >SE-Sec-B</a></span> 
+               <div class="links " >
+    <span class="sections "><a  " href="assets/timetables/SE-Sec-B.pdf">SE-Sec-B</a>
+            </span>
 
-<span class="download"><a href="assets/timetables/SE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button" role="button">Download</a></span>
-</div> 
+            <span class="download">
+              <a href="assets/timetables/SE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button" role="button">Download</a>
+            </span>
+          </div>
 
-                        </div>  
-                       
-
-
-
-
- </div>
- <!-- End of SE  -->
+        </div>
 
 
 
 
- </div>
-  <!-- End of FE and SE -->
 
-   <!-- TE and BE -->
-  <div class="row  ">
-    <!-- TE -->
- <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 "> 
-<div class="row">
-                            <div class="col-xs-12 content-heading">
-                                <h3>Third Year</h3>
-                            </div>
-                        </div>
+      </div>
+      <!-- End of SE  -->
 
-<div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
-                            
-                                <div class="links">
- <span class="sections"><a  " href="assets/timetables/TE-Sec-A.pdf" >TE-Sec-A</a></span> 
-<span class="download"><a href="assets/timetables/TE-Sec-A.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
+
+
+
+    </div>
+    <!-- End of FE and SE -->
+
+    <!-- TE and BE -->
+    <div class="row  ">
+      <!-- TE -->
+      <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 ">
+        <div class="row">
+          <div class="col-xs-12 content-heading">
+            <h3>Third Year</h3>
+          </div>
+        </div>
+
+        <div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
+
+          <div class="links">
+            <span class="sections">
+              <a " href="assets/timetables/TE-Sec-A.pdf " >TE-Sec-A</a></span> 
+<span class="download "><a href="assets/timetables/TE-Sec-A.pdf " download class="btn btn-primary btn-lg active
+                " role="button ">Download</a></span>
 </div>
-                          <div class="links">
- <span class="sections"><a  " href="assets/timetables/TE-Sec-B.pdf" >TE-Sec-B</a></span> 
-<span class="download"><a href="assets/timetables/TE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
-</div>
-                    
-                        </div>
+                          <div class="links ">
+ <span class="sections "><a  " href="assets/timetables/TE-Sec-B.pdf">TE-Sec-B</a>
+            </span>
+            <span class="download">
+              <a href="assets/timetables/TE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a>
+            </span>
+          </div>
+
+        </div>
 
 
 
 
- </div>
- <!-- End of TE-->
- <!-- BE -->
-  <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12"> 
-<div class="row">
-                            <div class="col-xs-12 content-heading">
-                                <h3>Final Year</h3>
-                            </div>
-                        </div>
+      </div>
+      <!-- End of TE-->
+      <!-- BE -->
+      <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12">
+        <div class="row">
+          <div class="col-xs-12 content-heading">
+            <h3>Final Year</h3>
+          </div>
+        </div>
 
-<div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
+        <div class="row grids" style="background-color: rgba(252, 234, 239,0.7);">
 
-                            
-               <div class="links" >
-    <span class="sections"><a  " href="assets/timetables/BE-Sec-A.pdf" >BE-Sec-A</a></span> 
 
-<span class="download"><a href="assets/timetables/BE-Sec-A.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
+          <div class="links">
+            <span class="sections">
+              <a " href="assets/timetables/BE-Sec-A.pdf " >BE-Sec-A</a></span> 
+
+<span class="download "><a href="assets/timetables/BE-Sec-A.pdf " download class="btn btn-primary btn-lg active
+                " role="button ">Download</a></span>
 </div>  
-      <div class="links" >
-    <span class="sections"><a  " href="assets/timetables/BE-Sec-B.pdf" >BE-Sec-B</a></span> 
+      <div class="links " >
+    <span class="sections "><a  " href="assets/timetables/BE-Sec-B.pdf">BE-Sec-B</a>
+            </span>
 
-<span class="download"><a href="assets/timetables/BE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a></span>
-</div>               
-                    
-                        </div>  
-                       
+            <span class="download">
+              <a href="assets/timetables/BE-Sec-B.pdf" download class="btn btn-primary btn-lg active" role="button">Download</a>
+            </span>
+          </div>
 
-
-
-
- </div>
- <!-- End of BE  -->
+        </div>
 
 
 
 
- </div>
- <!-- END OF TE AND BE -->
-</div>
 
-<!-- END -->
+      </div>
+      <!-- End of BE  -->
 
 
 
- <!-- NEW FOOTER -->
-        <footer class="bs-docs-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-                <ul class="ul-design">
-                  <li>
-                    <h3>About</h3>
-                  </li>
-                  <li>
-                    <h4>Contact</h4>021- 99261261</li>
-                  <li>
-                    <h4>Location</h4> Main University Road, Karachi, 75270</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-                <h3>Programmes</h3>
-                <ul class="ul-design">
-                  <li>
-                    <a class="footer-a" href="">BS-CSIT</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">BS-SE</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">BE-SE</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">MS-SE</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">MS-CSIT</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <ul class="ul-design">
-                  <li>
-                    <h3>Faculty</h3>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Sir Amjad</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Sir Najeed</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Miss Nazish</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Miss Uzma</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Miss Maria Andaleeb</a>
-                  </li>
-                  <li>
-                    <a class="footer-a" href="">Mr John</a>
-                  </li>
-                </ul>
-              </div>
+
+    </div>
+    <!-- END OF TE AND BE -->
+  </div>
+
+  <!-- END -->
+
+
+
+  <!-- NEW FOOTER -->
+  <footer class="bs-docs-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+          <ul class="ul-design">
+            <li>
+              <h3>About</h3>
+            </li>
+            <li>
+              <h4>Contact</h4>021- 99261261</li>
+            <li>
+              <h4>Location</h4> Main University Road, Karachi, 75270</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
+          <h3>Programmes</h3>
+          <ul class="ul-design">
+            <li>
+              <a class="footer-a" href="">BS-CSIT</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">BS-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">BE-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">MS-SE</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">MS-CSIT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <ul class="ul-design">
+            <li>
+              <h3>Faculty</h3>
+            </li>
+            <li>
+              <a class="footer-a" href="">Sir Amjad</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Sir Najeed</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Nazish</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Uzma</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Miss Maria Andaleeb</a>
+            </li>
+            <li>
+              <a class="footer-a" href="">Mr John</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
             </div>
-            <hr>
-            <div class="row">
-              <div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="container container-style">
-                    <a class="footer-a" href="">
-                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="container container-style">
-                    <a class="footer-a" href="">
-                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="container container-style">
-                    <a class="footer-a" href="">
-                      <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
-                  </div>
-                </div>
-                <!-- <ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="container container-style">
+              <a class="footer-a" href="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
+            </div>
+          </div>
+          <!-- <ul>
             <li class="socials ul-design">
               <i class="fa fa-instagram-official" aria-hidden="true"></i>Instagram
             </li>
@@ -367,14 +395,14 @@ height: 220px;
               <i class="fa fa-facebook-official" aria-hidden="true"><a href="#">Facebook</a></i>
             </li>
           </ul> -->
-              </div>
-            </div>
-            <hr>
-            <div class="copyrights">
-              <p>Copyright © 2017 , NED. All Rights Reserved</p>
-            </div>
-          </div>
-        </footer>
+        </div>
+      </div>
+      <hr>
+      <div class="copyrights">
+        <p>Copyright © 2017 , NED. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 
 
 </body>
