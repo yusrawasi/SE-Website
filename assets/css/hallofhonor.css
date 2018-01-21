@@ -86,6 +86,12 @@ th {
     margin: 0 auto;
 }
 
-.active {
-    background: purple;
+#hallOfHonor {
+    font-family: 'Century Gothic', 'Poppins';
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 40px auto;
+    color: #330b0d;
+    height: 50px;
 }

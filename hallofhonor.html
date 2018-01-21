@@ -61,14 +61,15 @@
                         <li>
                             <a href="courses.html">Programmes</a>
                         </li>
-                        <li>
-                            <a href="projects.html">Projects</a>
-                        </li>
+
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="projects.html">Projects</a>
+                                </li>
                                 <li>
                                     <a href="faculty.html">Faculty</a>
                                 </li>
@@ -102,9 +103,7 @@
 
     <div class="container">
         <div class="row">
-            <!-- SIDE BAR -->
-            <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
-                <!-- Sidebar -->
+            <!-- <div class="col-sm-3" id="myScrollspy" style="padding-left: 0;">
                 <div id="sidebar-wrapper" data-spy="affix" data-offset-top="30">
                     <ul class="sidebar-nav">
                         <li class="sidebar-brand">
@@ -127,12 +126,14 @@
                         </li>
                     </ul>
                 </div>
-                <!-- /#sidebar-wrapper -->
-            </div>
+            </div> -->
 
             <!-- MAIN TABLE -->
 
-            <div class="col-sm-9" style="padding-right: 0;">
+            <div class="col-sm-12" style="padding-right: 0;">
+                <div>
+                    <h1 id="hallOfHonor">Hall Of Honor</h1>
+                </div>
 
                 <div class="accordion" id="b1213" align="left" id="">
                     <h5 class="categories">Batch 2012-2013
@@ -175,7 +176,7 @@
                         <i class="fa fa-plus"></i>
                     </h5>
 
-                    <table class="table table-bordered table-hover editable">
+                    <table class="table table-bordered table-hover editable hideThis">
 
                         <thead>
                             <tr>
@@ -212,7 +213,7 @@
                         <i class="fa fa-plus"></i>
                     </h5>
 
-                    <table class="table table-bordered table-hover editable">
+                    <table class="table table-bordered table-hover editable hideThis">
 
                         <thead>
                             <tr>
@@ -251,11 +252,11 @@
     </div>
     </div>
 
-    
+
 
     <script>
         /*Initially hide the table*/
-        $('table').hide();
+        $('table.hideThis').hide();
         /*.accordion*/
         $('.fa-plus').click(function () {
                /* console.log("Click1");
