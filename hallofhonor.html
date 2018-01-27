@@ -250,7 +250,6 @@
         </div>
 
     </div>
-    </div>
 
 
 
@@ -267,25 +266,21 @@
         });
 
         $('.fa-plus').click(function () {
-            /* console.log("Click1");*/
             console.log(this);
             $(this).toggleClass('fa-plus');
 
             $(this).toggleClass('fa-minus');
-                /*
-                console.log($(this).parent().parent().find('table'));
-                let allParents = $(this).parents().find('div.accordion');
-                console.log(allParents);*/
-                /*$(this).parents().find(".table").fadeToggle("slow");*/$
+            /*
+            console.log($(this).parent().parent().find('table'));
+            let allParents = $(this).parents().find('div.accordion');
+            console.log(allParents);*/
+            /*$(this).parents().find(".table").fadeToggle("slow");*/
             $(this).parent().parent().find('table').fadeToggle('slow');
             /*slideToggle('1000'); sluggish animation */
 
         });
 
     </script>
-
-
-    <!-- .nextUntil('accordion') -->
 
 </body>
 

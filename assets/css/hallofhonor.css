@@ -87,7 +87,8 @@ th {
 }
 
 .editable {
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
 }
 
 #hallOfHonor {
