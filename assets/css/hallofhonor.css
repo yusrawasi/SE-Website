@@ -55,6 +55,10 @@ li {
     float: right;
 }
 
+.fa-minus {
+    float: right;
+}
+
 /* 
 .displayOff {
     display: none;
