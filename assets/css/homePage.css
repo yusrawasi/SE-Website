@@ -109,7 +109,7 @@ a:hover {
 
 .news {
     margin: 50px 0;
-    height: 150px;
+    height: 250px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -393,4 +393,15 @@ body {
     overflow: hidden;
     max-height: none !important;
     height: auto !important;
+}
+
+.date {
+  color: #990000;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem;
+}
+
+.event-heading {
+  color: #990000;
+  font-size: 1.5em;
 }
