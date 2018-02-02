@@ -389,11 +389,6 @@ body {
 }
 
 
-/* .navbar-nav>li>.dropdown-menu {
-    z-index: 9999;
-  } */
-
-
 .navbar-collapse.in {
     overflow: hidden;
     max-height: none !important;
