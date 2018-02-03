@@ -117,6 +117,13 @@ video {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  .news {
+    height:450px;
+  }
+}
+
 footer {
     color: grey;
     background-color: black;
