@@ -23,7 +23,7 @@
 }
 .hvrbox_background {
 	/*width changed*/
-	width: 416px;
+    max-width: 107.5%;
 	height: 250px;
 	background-size: cover;
 	background-position: center center;
@@ -32,6 +32,16 @@
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
 }
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  .hvrbox_background {
+	/*width changed*/
+    max-width: 104%;
+	height: 250px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
 	position: absolute;
@@ -39,7 +49,26 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	width: 100%;
+	width: 104%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+}
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 107.5%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.6);
 	color: #fff;
