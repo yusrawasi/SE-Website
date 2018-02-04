@@ -220,10 +220,12 @@
       background-position: center top;
     }*/
 
+
+      /*background-attachment: scroll;*/
+    /*removed from below */
     .supernova {
       background-image: url("http://static.panoramio.com/photos/large/95625328.jpg");
       /* Create the parallax scrolling effect */
-      /*background-attachment: scroll;*/
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -266,6 +268,19 @@
     body {
       min-height: 100%;
     }
+
+    @media screen and (max-width:750px ) {
+      form {
+        display: none;
+      }
+    }
+
+    div.CenterAlign>img {
+      display: block;
+      margin: 0 auto;
+
+    }
+
 
 
     /*PREFERENCES STYLE*/
@@ -457,8 +472,8 @@
           </script>
         </form>
       </div>
-      <div class="col-lg-6 col-sm-12" style="margin-top: 100px;">
-        <img src="assets/SELogo2.png">
+      <div class="col-lg-6 col-sm-12 CenterAlign" style="margin-top: 100px;">
+        <img src="assets/SELogo2.png" width="100%">
 
         <ul class="contact-info">
           <i class="far fa-address-book"></i>
@@ -474,6 +489,7 @@
           <i class="fas fa-envelope"></i>
           <br>
           <li>chaircsit@neduet.edu.pk</li>
+          <li>*Query form is displayed in Desktop mode only.</li>
         </ul>
       </div>
     </div>
