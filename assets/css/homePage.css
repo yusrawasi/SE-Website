@@ -7,7 +7,7 @@ body {
     margin: 0;
     width: 100%;
     padding-top: 70px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     /*Default on my system, change*/
 }
 
@@ -124,6 +124,8 @@ video {
   }
 }
 
+/* Footer Styling */
+/* ------------------------------------------ */
 footer {
     color: grey;
     background-color: black;
@@ -152,6 +154,19 @@ footer {
 .footer-a {
     color: grey;
 }
+
+.footer-a:hover{
+    color: white ;
+    text-decoration: none ;
+}
+
+.footer-a:focus {
+    color: grey;
+    text-decoration: none ;
+}
+
+/* End of footer styling */
+/* ------------------------------------ */
 
 .affix {
     top: 0;
