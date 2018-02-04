@@ -7,7 +7,7 @@ body {
     margin: 0;
     width: 100%;
     padding-top: 70px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     /*Default on my system, change*/
 }
 
