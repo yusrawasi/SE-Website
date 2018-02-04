@@ -20,6 +20,16 @@ a:hover {
     /*Change*/
     text-decoration: none;
 }
+.quicklinks a{
+    color: black;
+    font-size: 130%;
+    
+}
+.quicklinks a:hover {
+color: rgb(128, 0, 0);
+text-decoration: underline;
+}
+
 
 
 
