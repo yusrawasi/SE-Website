@@ -103,7 +103,7 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name=viewport content='width=320'>
+  <!-- <meta name=viewport content='width=320'> -->
     
     <link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F80165063697462"
       title="oEmbed Form">
@@ -113,8 +113,10 @@
     <meta property="og:url" content="http://www.jotform.me/form/80165063697462">
     <meta property="og:description" content="Please click the link to complete this form.">
     <link rel="shortcut icon" href="https://cdn.jotfor.ms/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
     <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>NED Software Engineering Department</title>
     <link href="https://cdn.jotfor.ms/static/formCss.css?3.3.4164" rel="stylesheet" type="text/css" />
     <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.4164" />
@@ -342,6 +344,16 @@
       setTimeout(function () {
         JotForm.paymentExtrasOnTheFly([null, null, null, { "name": "name", "qid": "3", "text": "Name", "type": "control_textbox" }, { "name": "email", "qid": "4", "text": "E-mail", "type": "control_textbox" }, null, { "name": "message", "qid": "6", "text": "Message", "type": "control_textarea" }, { "name": "submit", "qid": "7", "text": "Submit", "type": "control_button" }, { "name": "clickTo", "qid": "8", "text": "Contact Us", "type": "control_head" }, { "name": "subject", "qid": "9", "text": "Subject", "type": "control_textbox" }]);
       }, 20); 
+
+      $(window).resize(function() {
+        var mobileWidth =  (window.innerWidth > 0) ? 
+                            window.innerWidth : 
+                            screen.width;
+        var viewport = (mobileWidth > 360) ?
+                        'width=device-width, initial-scale=1.0' :
+                        'width=1200';
+        $("meta[name=viewport]").attr('content', viewport);
+    }).resize();    
     </script>
   </head>
 
@@ -463,112 +475,6 @@
 
   </html>
   <script type="text/javascript">JotForm.ownerView = true;</script>
-  <!-- End of Content -->
-
-
-
-
-  <!-- NEW FOOTER -->
-  <footer class="bs-docs-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-          <ul class="ul-design">
-            <li>
-              <h3>About</h3>
-            </li>
-            <li>
-              <h4>Contact</h4>021- 99261261</li>
-            <li>
-              <h4>Location</h4> Main University Road, Karachi, 75270</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 footer-style">
-          <h3>Programmes</h3>
-          <ul class="ul-design">
-            <li>
-              <a class="footer-a" href="">BS-CSIT</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">BS-SE</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">BE-SE</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">MS-SE</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">MS-CSIT</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <ul class="ul-design">
-            <li>
-              <h3>Faculty</h3>
-            </li>
-            <li>
-              <a class="footer-a" href="">Sir Amjad</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">Sir Najeed</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">Miss Nazish</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">Miss Uzma</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">Miss Maria Andaleeb</a>
-            </li>
-            <li>
-              <a class="footer-a" href="">Mr John</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="container container-style">
-              <a class="footer-a" href="">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="container container-style">
-              <a class="footer-a" href="">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>Instagram</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="container container-style">
-              <a class="footer-a" href="">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>Twitter</a>
-            </div>
-          </div>
-          <!-- <ul>
-            <li class="socials ul-design">
-              <i class="fa fa-instagram-official" aria-hidden="true"></i>Instagram
-            </li>
-            <li class="socials ul-design">
-              <a href=""><i class="fa fa-twitter-official" aria-hidden="true"> Twitter</i></a>
-            </li>
-            <li class="socials ul-design">
-              <i class="fa fa-facebook-official" aria-hidden="true"><a href="#">Facebook</a></i>
-            </li>
-          </ul> -->
-        </div>
-      </div>
-      <hr>
-      <div class="copyrights">
-        <p>Copyright © 2017 , NED. All Rights Reserved</p>
-      </div>
-    </div>
-  </footer>
 
 </body>
 
