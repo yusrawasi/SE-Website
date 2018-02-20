@@ -111,7 +111,7 @@ video {
 
 .parallax {
     /* The image used */
-    background-image: url("assets/images/95625328.jpg");
+    background-image: url("../images/NED-main.jpg");
     /* Set a specific height */
     min-height: 300px;
     /* Create the parallax scrolling effect */
